@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50A Bungaree Road, Wilson WA - Architectural & Interior Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --accent: #d4a373;
+      --accent-light: #faedcd;
+      --text: #f0f6fc;
+      --text-muted: #8b949e;
+      --gold: #e5b869;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
+
+    /* Hero Header */
+    .hero {
+      position: relative;
+      height: 70vh;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 60px 8%;
+      background: linear-gradient(180deg, rgba(13,17,23,0.2) 0%, rgba(13,17,23,0.95) 100%),
+                  url('02_San_Truoc_Mat_Tien_Carport.jpg') center/cover no-repeat;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(212, 163, 115, 0.2);
+      border: 1px solid var(--accent);
+      color: var(--accent-light);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      width: fit-content;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 600;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      color: var(--accent-light);
+      max-width: 750px;
+      margin-bottom: 24px;
+    }
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 10px;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .stat-val {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .stat-lbl {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    /* Navigation Tabs */
+    .tab-bar {
+      display: flex;
+      gap: 12px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 16px;
+      margin-bottom: 40px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .tab-btn:hover {
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .tab-btn.active {
+      background: var(--accent);
+      color: #111;
+      border-color: var(--accent);
+    }
+
+    /* Section Header */
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 32px;
+    }
+
+    /* Cards Grid */
+    .design-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 32px;
+      margin-bottom: 50px;
+    }
+
+    .design-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .design-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(212, 163, 115, 0.5);
+      box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+    }
+    .card-media {
+      position: relative;
+      height: 280px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+    .design-card:hover .card-media img {
+      transform: scale(1.04);
+    }
+    .media-badge {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(13, 17, 23, 0.8);
+      backdrop-filter: blur(8px);
+      color: var(--accent-light);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .card-content {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 16px;
+      flex: 1;
+    }
+    .feature-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+    .tag {
+      background: rgba(255,255,255,0.06);
+      color: #c9d1d9;
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    /* Before / After Comparison */
+    .ba-section {
+      background: #11151c;
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 50px;
+    }
+    .ba-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-top: 20px;
+    }
+    .ba-item {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      background: #0d1117;
+    }
+    .ba-header {
+      padding: 10px 16px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .ba-header.before { background: #2d1818; color: #ff7b72; }
+    .ba-header.after { background: #162d1d; color: #7ee787; }
+    .ba-item img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Floorplan & Specs */
+    .plan-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .plan-box { grid-template-columns: 1fr; }
+    }
+    .plan-box img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+    }
+    .spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    .spec-table th, .spec-table td {
+      padding: 10px 14px;
+      text-align: left;
+      font-size: 0.9rem;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .spec-table th { color: var(--accent); }
+    .spec-table td { color: #c9d1d9; }
+
+    /* Modal Lightbox */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.92);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .modal.open { display: flex; }
+    .modal img {
+      max-width: 92vw;
+      max-height: 90vh;
+      border-radius: 10px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    }
+    .modal-close {
+      position: absolute;
+      top: 24px; right: 28px;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-badge">✦ Architectural Redesign Proposal</div>
+    <h1>50A Bungaree Road, Wilson WA 6107</h1>
+    <p>Bản thiết kế cải tạo toàn diện Sân vườn ngoài trời, Kiến trúc mặt tiền & Nội thất phong cách Australian Coastal Contemporary & Japandi.</p>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-val">155.0 m²</span>
+        <span class="stat-lbl">Tổng diện tích xây dựng</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">3 Beds + Studio</span>
+        <span class="stat-lbl">Công năng phòng</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">2 Baths / 2 Cars</span>
+        <span class="stat-lbl">Vệ sinh & Gara Carport</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">Perth, WA</span>
+        <span class="stat-lbl">Vị trí địa lý</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Tab Bar -->
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('all')">Tất cả hình ảnh (All 7 Renders)</button>
+      <button class="tab-btn" onclick="switchTab('landscape')">Sân vườn & Ngoại thất (Landscape)</button>
+      <button class="tab-btn" onclick="switchTab('interior')">Nội thất (Interiors)</button>
+      <button class="tab-btn" onclick="switchTab('comparison')">So sánh Trước / Sau (Before & After)</button>
+      <button class="tab-btn" onclick="switchTab('floorplan')">Mặt bằng & Dự toán (Floorplan & Specs)</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <section id="gallery-section">
+      <h2 class="section-title">Phối Cảnh 3D Thiết Kế Mới</h2>
+      <p class="section-subtitle">Nhấp vào bất kỳ ảnh nào để xem phóng to ở độ phân giải siêu nét (8K Ultra-HD).</p>
+
+      <div class="design-grid">
+        <!-- Card 1 -->
+        <div class="design-card" data-category="landscape">
+          <div class="card-media" onclick="openModal('01_San_Vuon_Sau_Alfresco.jpg')">
+            <span class="media-badge">SÂN SAU RESORT</span>
+            <img src="01_San_Vuon_Sau_Alfresco.jpg" alt="Sân vườn sau Alfresco">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">01. Sân Vườn Sau & Alfresco BBQ Resort</h3>
+            <p class="card-desc">Sàn gỗ composite Spotted Gum, giàn pergola thông minh có mái lam xoay tự động che nắng mưa, quầy BBQ bê tông mài tích hợp tủ lạnh ngoài trời, sofa góc nệm Sunbrella và bồn hoa uốn lượn hắt đèn LED ấm cúng.</p>
+            <div class="feature-tags">
+              <span class="tag">Decking Composite</span>
+              <span class="tag">Outdoor BBQ Kitchen</span>
+              <span class="tag">Pergola Louvre Roof</span>
+              <span class="tag">LED Step Lights</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="design-card" data-category="landscape">
+          <div class="card-media" onclick="openModal('02_San_Truoc_Mat_Tien_Carport.jpg')">
+            <span class="media-badge">MẶT TIỀN & SÂN TRƯỚC</span>
+            <img src="02_San_Truoc_Mat_Tien_Carport.jpg" alt="Mặt tiền sân trước Carport">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">02. Mặt Tiền, Sân Trước & Nhà Xe Carport</h3>
+            <p class="card-desc">Tường ngoài trát trắng đá vôi nhẹ kết hợp ốp lam gỗ tự nhiên, nhà để xe Carport đôi khung thép sơn đen trần ốp gỗ đèn downlight, đá lát Travertine kem khổ lớn, hàng rào lam nhôm đen và trụ thư LED số '50A'.</p>
+            <div class="feature-tags">
+              <span class="tag">Limestone Render</span>
+              <span class="tag">Double Carport Timber Ceiling</span>
+              <span class="tag">Travertine Pavers</span>
+              <span class="tag">Feature Olive Tree</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="design-card" data-category="interior">
+          <div class="card-media" onclick="openModal('03_Phong_Khach_Phong_An.jpg')">
+            <span class="media-badge">PHÒNG KHÁCH & ĂN</span>
+            <img src="03_Phong_Khach_Phong_An.jpg" alt="Phòng khách và phòng ăn">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">03. Không Gian Mở Living & Dining Japandi</h3>
+            <p class="card-desc">Sàn gỗ sồi châu Âu tự nhiên, vách kính lùa kịch trần mở tầm nhìn sân vườn, sofa bouclé kem mềm mại, vách tivi ốp nan gỗ sồi dọc hắt sáng LED, bàn ăn oval gỗ sồi 6 ghế tựa uốn cong tinh tế.</p>
+            <div class="feature-tags">
+              <span class="tag">European Oak Floor</span>
+              <span class="tag">Fluted Timber Wall</span>
+              <span class="tag">Bouclé Sofa & Dining</span>
+              <span class="tag">Floor-to-Ceiling Glass</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="design-card" data-category="interior">
+          <div class="card-media" onclick="openModal('04_Nha_Bep_Dao_Bep.jpg')">
+            <span class="media-badge">NHÀ BẾP HIỆN ĐẠI</span>
+            <img src="04_Nha_Bep_Dao_Bep.jpg" alt="Nhà bếp và đảo bếp">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">04. Bếp Sang Trọng Với Đảo Đá Thác Nước</h3>
+            <p class="card-desc">Đảo bếp đá thạch anh Calacatta vân mây ốp thác nước đôi bên, chậu rửa âm đôi vòi cổ ngỗng màu vàng đồng chải, tủ bếp phẳng không tay nắm màu trắng ngà kết hợp gỗ sồi, bộ 3 đèn thả thủy tinh sọc nghệ thuật.</p>
+            <div class="feature-tags">
+              <span class="tag">Calacatta Waterfall Island</span>
+              <span class="tag">Brushed Gold Tapware</span>
+              <span class="tag">Induction Cooktop</span>
+              <span class="tag">Leather Barstools</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="design-card" data-category="interior">
+          <div class="card-media" onclick="openModal('05_Studio_Lam_Viec_Giai_Tri.jpg')">
+            <span class="media-badge">CẢI TẠO STUDIO WORKSHOP</span>
+            <img src="05_Studio_Lam_Viec_Giai_Tri.jpg" alt="Studio làm việc giải trí">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">05. Cải Tạo Xưởng Thành Creative Studio & Lounge</h3>
+            <p class="card-desc">Chuyển đổi phòng xưởng cũ (3.0x6.3m) thành studio làm việc chuyên nghiệp: tường gạch thô sơn trắng phong cách Loft, trần ốp lam gỗ tiêu âm chống vang, bàn làm việc đôi treo lơ lửng, ghế da đọc sách và cửa kính thông vườn.</p>
+            <div class="feature-tags">
+              <span class="tag">Exposed Painted Brick</span>
+              <span class="tag">Acoustic Timber Slat Ceiling</span>
+              <span class="tag">Dual Workstation</span>
+              <span class="tag">Garden Access Slider</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="design-card" data-category="interior">
+          <div class="card-media" onclick="openModal('06_Phong_Ngu_Master.jpg')">
+            <span class="media-badge">PHÒNG NGỦ MASTER</span>
+            <img src="06_Phong_Ngu_Master.jpg" alt="Phòng ngủ Master">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">06. Phòng Ngủ Master Phong Cách Khách Sạn</h3>
+            <p class="card-desc">Giường King bọc nỉ màu be cát, vách đầu giường ốp lam gỗ sồi và vữa hiệu ứng Venetian Plaster, tủ áo cánh kính sọc mờ viền nhôm đèn LED tự động, cửa sổ lớn rèm voan 2 lớp lấy sáng êm dịu, thông sang phòng tắm riêng Ensuite.</p>
+            <div class="feature-tags">
+              <span class="tag">Venetian Plaster & Battens</span>
+              <span class="tag">Fluted Glass Wardrobe</span>
+              <span class="tag">Sheer Linen Curtains</span>
+              <span class="tag">Ensuite Connection</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="design-card" data-category="interior">
+          <div class="card-media" onclick="openModal('07_Phong_Tam_Modern_Spa.jpg')">
+            <span class="media-badge">PHÒNG TẮM SPA</span>
+            <img src="07_Phong_Tam_Modern_Spa.jpg" alt="Phòng tắm hiện đại">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">07. Phòng Tắm Sang Trọng Tiêu Chuẩn Spa</h3>
+            <p class="card-desc">Gạch vân đá travertine khổ lớn 600x1200mm, buồng tắm kính đứng không khung, sen cây âm tường màu vàng đồng chải, tủ lavabo gỗ sồi lam sóng, gương vòm cảm ứng đèn LED hắt và bồn cầu âm tường cao cấp.</p>
+            <div class="feature-tags">
+              <span class="tag">Travertine Porcelain 600x1200</span>
+              <span class="tag">Frameless Glass Shower</span>
+              <span class="tag">Brushed Brass Fixtures</span>
+              <span class="tag">Arched Backlit Mirror</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before & After Section -->
+    <section id="comparison-section" class="ba-section">
+      <h2 class="section-title">So Sánh Hiện Trạng & Thiết Kế Mới (Before & After)</h2>
+      <p class="section-subtitle">Xem sự lột xác ngoạn mục giữa không gian nhà cũ và phương án thiết kế hiện đại.</p>
+
+      <div class="ba-grid">
+        <!-- Pair 1: Sân sau -->
+        <div class="ba-item">
+          <div class="ba-header before">SÂN SAU HIỆN TRẠNG (BEFORE)</div>
+          <img src="before_backyard.jpg" alt="Sân sau cũ">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after">SÂN SAU THIẾT KẾ MỚI (AFTER)</div>
+          <img src="01_San_Vuon_Sau_Alfresco.jpg" alt="Sân sau mới">
+        </div>
+
+        <!-- Pair 2: Sân trước -->
+        <div class="ba-item">
+          <div class="ba-header before">SÂN TRƯỚC & CARPORT HIỆN TRẠNG (BEFORE)</div>
+          <img src="before_frontyard.jpg" alt="Sân trước cũ">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after">SÂN TRƯỚC & CARPORT THIẾT KẾ MỚI (AFTER)</div>
+          <img src="02_San_Truoc_Mat_Tien_Carport.jpg" alt="Sân trước mới">
+        </div>
+
+        <!-- Pair 3: Bếp -->
+        <div class="ba-item">
+          <div class="ba-header before">NHÀ BẾP HIỆN TRẠNG (BEFORE)</div>
+          <img src="before_kitchen.jpg" alt="Bếp cũ">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after">NHÀ BẾP THIẾT KẾ MỚI (AFTER)</div>
+          <img src="04_Nha_Bep_Dao_Bep.jpg" alt="Bếp mới">
+        </div>
+
+        <!-- Pair 4: Workshop / Studio -->
+        <div class="ba-item">
+          <div class="ba-header before">XƯỞNG WORKSHOP CŨ (BEFORE)</div>
+          <img src="before_workshop.jpg" alt="Xưởng cũ">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after">STUDIO LÀM VIỆC & LOUNGE MỚI (AFTER)</div>
+          <img src="05_Studio_Lam_Viec_Giai_Tri.jpg" alt="Studio mới">
+        </div>
+      </div>
+    </section>
+
+    <!-- Floorplan & Specs Section -->
+    <section id="floorplan-section">
+      <h2 class="section-title">Mặt Bằng Hiện Hữu & Dự Toán Thi Công</h2>
+      <p class="section-subtitle">Thông số diện tích chi tiết và ngân sách dự toán theo mặt bằng 50A Bungaree Road, Wilson WA.</p>
+
+      <div class="plan-box">
+        <div>
+          <img src="floorplan.jpg" alt="Mặt bằng 50A Bungaree Road">
+        </div>
+        <div>
+          <h3 style="font-size: 1.3rem; color: #fff; margin-bottom: 12px;">Bảng Phân Bổ Diện Tích</h3>
+          <table class="spec-table">
+            <tr><th>Khu vực</th><th>Kích thước</th><th>Diện tích</th></tr>
+            <tr><td>Living / Dining</td><td>6.9m x 3.6m</td><td>24.8 m²</td></tr>
+            <tr><td>Kitchen</td><td>4.2m x 3.1m</td><td>13.0 m²</td></tr>
+            <tr><td>Creative Studio (Workshop)</td><td>3.0m x 6.3m</td><td>18.9 m²</td></tr>
+            <tr><td>Master Bedroom + Ensuite</td><td>3.2m x 4.1m</td><td>16.6 m²</td></tr>
+            <tr><td>Bedroom 2</td><td>4.3m x 3.3m</td><td>14.2 m²</td></tr>
+            <tr><td>Bedroom 3</td><td>3.2m x 3.1m</td><td>9.9 m²</td></tr>
+            <tr><td>Main Bathroom & Laundry</td><td>3.2m x 3.8m</td><td>12.2 m²</td></tr>
+            <tr><td>Carport đôi (2 xe)</td><td>5.9m x 6.1m</td><td>36.0 m²</td></tr>
+            <tr><td><strong>Tổng diện tích trong nhà</strong></td><td>-</td><td><strong>119.0 m²</strong></td></tr>
+            <tr><td><strong>Tổng diện tích xây dựng</strong></td><td>-</td><td><strong>155.0 m²</strong></td></tr>
+          </table>
+
+          <div style="margin-top: 24px; padding: 16px; background: rgba(212, 163, 115, 0.1); border-left: 3px solid var(--accent); border-radius: 4px;">
+            <p style="font-size: 0.9rem; color: var(--accent-light);">
+              <strong>Dự toán ngân sách thi công trọn gói tại Perth, WA:</strong><br>
+              Ước tính từ <strong>$105,000 – $148,000 AUD</strong> (Bao gồm tháo dỡ, sân vườn trước/sau, bếp Calacatta, sàn gỗ sồi, studio làm việc và 2 phòng tắm).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lightbox Modal -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <button class="modal-close" onclick="closeModal()">&times;</button>
+    <img id="modalImg" src="" alt="Zoomed Render">
+  </div>
+
+  <script>
+    function openModal(imgSrc) {
+      document.getElementById('modalImg').src = imgSrc;
+      document.getElementById('imageModal').classList.add('open');
+    }
+    function closeModal() {
+      document.getElementById('imageModal').classList.remove('open');
+    }
+
+    function switchTab(cat) {
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const cards = document.querySelectorAll('.design-card');
+      const gallerySec = document.getElementById('gallery-section');
+      const compSec = document.getElementById('comparison-section');
+      const planSec = document.getElementById('floorplan-section');
+
+      if (cat === 'all') {
+        gallerySec.style.display = 'block';
+        compSec.style.display = 'block';
+        planSec.style.display = 'block';
+        cards.forEach(card => card.style.display = 'flex');
+      } else if (cat === 'landscape' || cat === 'interior') {
+        gallerySec.style.display = 'block';
+        compSec.style.display = 'none';
+        planSec.style.display = 'none';
+        cards.forEach(card => {
+          if (card.getAttribute('data-category') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      } else if (cat === 'comparison') {
+        gallerySec.style.display = 'none';
+        compSec.style.display = 'block';
+        planSec.style.display = 'none';
+      } else if (cat === 'floorplan') {
+        gallerySec.style.display = 'none';
+        compSec.style.display = 'none';
+        planSec.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
