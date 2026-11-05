@@ -1,203 +1,114 @@
 # HỒ SƠ THIẾT KẾ CẢI TẠO KIẾN TRÚC & NỘI THẤT TOÀN DIỆN
 ## DỰ ÁN: 50A BUNGAREE ROAD, WILSON, WA 6107, AUSTRALIA
+*(Bản hiệu chỉnh & chuẩn hóa cấu trúc 100% theo hồ sơ hiện trạng và mặt bằng kỹ thuật)*
 
 ---
 
-### I. TỔNG QUAN DỰ ÁN & HIỆN TRẠNG MẶT BẰNG
+### I. RÀ SOÁT CẤU TRÚC HIỆN TRẠNG & THÔNG SỐ KÍCH THƯỚC CHUẨN XÁC
 
-* **Địa chỉ:** 50A Bungaree Road, Wilson, Western Australia 6107 (liền kề Curtin University & Canning River).
-* **Loại hình:** Nhà phố biệt lập 1 tầng (Single-storey modern villa / duplex).
-* **Tổng diện tích sàn:** 155.0 m²
-  * Diện tích trong nhà (Inside): 119.0 m²
-  * Nhà để xe (Carport): 36.0 m² (5.9m x 6.1m)
-* **Cơ cấu công năng chính:**
-  * Sân trước & Cổng rào mặt tiền (Front Yard & Driveway Courtyard): ~75 m²
-  * Sân vườn sau (Backyard Alfresco Entertaining Area): ~65 m²
-  * Không gian sinh hoạt chung mở (Open-plan Living & Dining): 6.9m x 3.6m (~24.8 m²)
-  * Bếp nấu & Đảo bếp trung tâm (Kitchen & Island): 4.2m x 3.1m (~13.0 m²)
-  * Xưởng đa năng cải tạo thành Studio làm việc / Home Office: 3.0m x 6.3m (~18.9 m²)
-  * Phòng ngủ chính (Master Bedroom): 3.2m x 4.1m (~13.1 m²) kèm Ensuite
-  * Phòng ngủ 2: 4.3m x 3.3m (~14.2 m²)
-  * Phòng ngủ 3: 3.2m x 3.1m (~9.9 m²)
-  * Phòng tắm chính (Main Bathroom): 3.2m x 1.8m (~5.8 m²)
-  * Khu giặt sấy & Vệ sinh phụ (Laundry & Separate WC): 3.2m x 2.0m (~6.4 m²)
+Dựa trên bản vẽ mặt bằng trắc địa kỹ thuật (`floorplan.jpg`) và hệ thống ảnh chụp hiện trạng (`image.jpg` đến `image (23).jpg`), cấu trúc và kích thước thực tế của căn nhà được xác định chính xác như sau:
 
----
+* **Địa chỉ:** 50A Bungaree Road, Wilson, Western Australia 6107 (Khu vực suburban ven sông Canning và Đại học Curtin).
+* **Loại hình:** Nhà trệt 1 tầng biệt lập phía trong (Rear/Duplex single-storey villa) xây dựng bằng gạch đôi (*Double Brick*) và mái ngói đất nung (*Terracotta Roof Tiles*).
+* **Tổng diện tích xây dựng:** **155.0 m²**
+  * **Diện tích trong nhà (Inside Area):** **119.0 m²**
+  * **Nhà để xe Carport đôi (2 xe):** **36.0 m²** (5.9m x 6.1m)
 
-### II. ĐỊNH HƯỚNG PHONG CÁCH THIẾT KẾ (DESIGN CONCEPT)
+#### 1. Bảng Thông Số Kích Thước & Tọa Độ Công Năng Từng Phòng:
 
-Dự án được định vị theo phong cách **Australian Coastal Contemporary kết hợp Japandi (Modern Coastal Luxury)**:
-1. **Tôn vinh ánh sáng tự nhiên & Khí hậu Perth:** Tối đa hóa các mảng kính lớn trượt lùa kịch trần, mở rộng tầm nhìn kết nối liền mạch (Seamless Indoor-Outdoor Living) giữa phòng khách, studio làm việc và khu sân vườn ngoài trời.
-2. **Bảng màu ấm áp & Tinh tế (Earthy Warm Palette):**
-   * Tường: Trắng ấm tự nhiên (*Dulux Natural White* / *Casper White Quarter*).
-   * Điểm nhấn: Gỗ sồi tự nhiên (*Natural European Oak / Spotted Gum*), gạch travertine kem be, kim loại đen nhám (*Matte Black*) và đồng chải vàng (*Brushed Champagne Brass*).
-3. **Vật liệu bền vững, chịu nắng gió Tây Úc:** Sàn gỗ nhựa composite ngoài trời chống phai màu, đá thạch anh nhân tạo chống thấm ố, gạch porcelain khổ lớn chống trơn trượt.
+| Không gian chức năng | Kích thước thực tế | Diện tích (m²) | Vị trí, hướng tiếp giáp & Đặc điểm cấu trúc thực tế |
+| :--- | :---: | :---: | :--- |
+| **Living / Dining** *(Khách & Ăn)* | **6.9m x 3.6m** | **24.8 m²** | Không gian hình chữ nhật thuôn dài, **chiều ngang thực tế 3.6 mét**. Tường phía Nam có cửa sổ nhìn ra sân trước/carport. Tường bên hông có cửa trượt lùa trắng dẫn vào sảnh Entry. Tường phía sau mở liên thông vào bếp. |
+| **Kitchen** *(Nhà bếp)* | **4.2m x 3.1m** | **13.0 m²** | Nằm ở góc sau bên phải nhà. Tường sau chứa tủ lạnh (F), lò nướng (OV), bếp nấu. Tường hông có bồn rửa đôi dưới cửa sổ nhìn ra lối đi hông và hàng rào ranh giới. Đảo bếp ở phía trước nhìn về phòng ăn. Liền kề phòng giặt và kho Pantry. |
+| **Workshop / Studio** *(Xưởng cũ)* | **3.0m x 6.3m** | **18.9 m²** | Gian phòng phụ hẹp dài nằm thụt về bên trái nhà, nguyên bản là garage/xưởng tường gạch thô, trần tấm panel phẳng, cửa mở thẳng ra sân sau lát gạch và cửa sổ nhìn ra trước. |
+| **Master Bedroom + Ensuite** | **3.2m x 4.1m** | **16.6 m²** | Nằm ở góc trong cùng phía sau bên trái. Cửa sổ nhìn ra sân sau/khoảng thoáng sau nhà. Phòng tắm Ensuite khép kín có buồng tắm đứng, bồn cầu và lavabo. |
+| **Bedroom 2** *(Phòng ngủ 2)* | **4.3m x 3.3m** | **14.2 m²** | Phòng ngủ phụ lớn ở phía trước, nằm giữa Workshop và Bedroom 3. |
+| **Bedroom 3** *(Phòng ngủ 3)* | **3.2m x 3.1m** | **9.9 m²** | Nằm ở mặt trước, kẹp giữa Bedroom 2 và sảnh Entry, cửa sổ nhìn ra sân trước dưới mái hiên. |
+| **Main Bathroom** *(Tắm chính)* | **3.2m x 1.8m** | **5.8 m²** | Bề ngang hẹp **1.8 mét**, chiều sâu **3.2 mét**. Thứ tự bố trí từ ngoài vào: Lavabo và gương trên tường bên trái, bồn cầu ở giữa, buồng tắm đứng ở góc trong bên phải, cửa sổ trên cao. |
+| **Laundry + WC** *(Giặt & Vệ sinh)* | **3.2m x 2.0m** | **6.4 m²** | Phòng giặt có cửa mở ra sân sau lát gạch và 1 phòng vệ sinh riêng biệt (Separate WC) + tủ để khăn (Linen). |
+| **Carport** *(Nhà xe đôi)* | **5.9m x 6.1m** | **36.0 m²** | Mái ngói nối liền hiên nhà trên hệ cột gạch, nằm ở góc bên trái sân trước (khi nhìn từ ngoài lối vào). |
+| **Sân vườn sau (Backyard)** | **~6.0m x ~4.0m** | **~25 - 35 m²** | Khoảng sân chữ nhật/chữ L dọc sau nhà kẹp giữa tường gạch ranh giới cao của nhà sau (bên phải) và tường nhà có cửa giặt/xưởng (bên trái), cuối sân là hàng rào Colorbond. |
+| **Sân trước (Front Courtyard)** | **~9.0m x ~8.0m** | **~70 m²** | Sân lát gạch kết nối carport, lối đi ô tô và thảm cảnh quan bên trái. |
 
 ---
 
-### III. CHI TIẾT GIẢI PHÁP THIẾT KẾ CÁC KHU VỰC CHÍNH
+### II. NGUYÊN TẮC THIẾT KẾ KHẮC PHỤC TRIỆT ĐỂ SAI LỆCH CẤU TRÚC
 
-#### 1. SÂN VƯỜN SAU & KHU ALFRESCO NGOÀI TRỜI (BACKYARD & ALFRESCO RESORT)
-* **Hiện trạng cũ:** Thảm cỏ nhân tạo đơn điệu, sàn gạch vuông xám xỉn màu, tường gạch trơ trọi, cục nóng điều hòa lộ thiên.
-* **Giải pháp thiết kế mới (Ảnh: `01_San_Vuon_Sau_Alfresco.jpg`):**
-  * **Sàn Decking:** Nâng cấp toàn bộ thành sàn gỗ nhựa composite cao cấp màu nâu ấm (*Spotted Gum finish*), không cong vênh, chống trơn trượt tuyệt đối.
-  * **Hệ mái Pergola thông minh:** Khung thép hộp sơn tĩnh điện đen nhám (*Matte Black*) tích hợp hệ lam xoay tự động (*Automated Louvre Roof*) chống mưa nắng linh hoạt theo mùa ở Perth.
-  * **Bếp nướng BBQ ngoài trời:** Đảo bếp bê tông mài nguyên khối (*Polished Concrete Waterfall Island*), tích hợp bếp nướng gas âm inox 304, bồn rửa và tủ lạnh mini cánh kính trữ đồ uống tiệc ngoài trời.
-  * **Lounge thư giãn:** Bộ sofa góc module nệm nỉ chống thấm nước màu kem cát (*Sunbrella fabric*), bàn trà gỗ keo, thảm dệt tự nhiên ngoài trời.
-  * **Cảnh quan & Đèn:** Bồn hoa bê tông uốn lượn bo cong với cây sứ đại hoa trắng (*Frangipani*), chuối cảnh (*Bird of Paradise*), cây cọ lùn; dải LED hắt chân bồn hoa và bậc tam cấp ấm áp 3000K; giấu gọn cụm máy lạnh sau hệ lam gỗ thông hơi thẩm mỹ.
-
-#### 2. MẶT TIỀN, SÂN TRƯỚC & NHÀ XE CARPORT (FACADE & FRONT ENTRANCE)
-* **Hiện trạng cũ:** Tường gạch đất nung cũ, gạch lát sân màu cam hoa văn cũ, hàng rào kim loại thanh tròn màu kem, cây cọ cao đơn điệu, vỉa hè cát cỏ lộn xộn.
-* **Giải pháp thiết kế mới (Ảnh: `02_San_Truoc_Mat_Tien_Carport.jpg`):**
-  * **Diện mạo mặt ngoài:** Trát bả phẳng và sơn phủ ngoại thất màu trắng đá vôi nhẹ (*Off-white / Limestone render*), kết hợp ốp lam gỗ tự nhiên chịu thời tiết ở sảnh chính và cột carport.
-  * **Nhà xe Carport hiện đại:** Khung thép kiến trúc đen nhám phẳng, trần ốp lam gỗ thông sấy tự nhiên âm đèn downlight LED chiếu rọi thông minh ban đêm.
-  * **Sân đậu xe & Lối đi:** Thay thế gạch cũ bằng đá Travertine kem mài mờ (*Honed Light Travertine Pavers*) kích thước lớn 600x400mm, tạo vẻ sang trọng và rộng rãi cho 2-3 ô tô ra vào thoải mái.
-  * **Cổng & Hàng rào:** Thay hàng rào cũ bằng cổng trượt tự động lam nhôm nằm ngang đen nhám thanh lịch, trụ hộp thư tích hợp đèn LED khắc chìm số nhà "50A" phong cách biệt thự hiện đại.
-  * **Tiểu cảnh sân trước:** Cây ô liu cổ thụ (*Feature Olive Tree*) và sứ hoa trắng đặt trong bồn viền bo cong, rải sỏi trắng kem, thảm cỏ Bermuda và cụm đèn rọi cây sang trọng.
-
-#### 3. PHÒNG KHÁCH & PHÒNG ĂN LIÊN HOÀN (OPEN-PLAN LIVING & DINING)
-* **Hiện trạng cũ:** Không gian trống trải, cửa nhôm cũ, rèm ren lỗi thời, lò sưởi cũ.
-* **Giải pháp thiết kế mới (Ảnh: `03_Phong_Khach_Phong_An.jpg`):**
-  * **Cửa mở rộng tầm nhìn:** Thay toàn bộ cửa sổ cũ bằng hệ vách kính & cửa trượt lùa kịch trần khung nhôm sơn anode đen mờ, mở ra khu vườn xanh ngát.
-  * **Khu vực tiếp khách (Living Zone):** Sofa góc bọc vải bouclé cao cấp màu trắng ngà kem, thảm len dệt thô, bàn trà gỗ sồi, mảng tường tivi ốp lam gỗ sồi thẳng đứng (*Fluted Timber Wall Panel*) với hệ đèn LED hắt khe trần gián tiếp, kệ tivi treo lơ lửng tối giản.
-  * **Khu vực bàn ăn (Dining Zone):** Bàn ăn oval gỗ sồi nguyên khối 6-8 chỗ ngồi kết hợp ghế ăn tựa cong phong cách Bắc Âu bọc nỉ ấm áp, đèn thả trần thanh dài tối giản kiểu nghệ thuật Scandinavia. Rèm voan trắng rủ nhẹ 2 lớp lấy sáng tự nhiên êm dịu.
-
-#### 4. BẾP NẤU & ĐẢO BẾP TRUNG TÂM (CHEF'S KITCHEN & WATERFALL ISLAND)
-* **Hiện trạng cũ:** Tủ bếp gỗ ép laminate màu be vàng cũ, đảo bếp ngắn có bàn phụ chân ống inox, bồn rửa dưới cửa sổ nhỏ.
-* **Giải pháp thiết kế mới (Ảnh: `04_Nha_Bep_Dao_Bep.jpg`):**
-  * **Đảo bếp trung tâm (Central Island):** Mở rộng thành đảo bếp lớn dài 2.8m, mặt đá thạch anh Calacatta vân mây xám vàng ốp tràn hai bên (*Waterfall edge*), tích hợp chậu rửa âm đôi và vòi cổ ngỗng màu vàng đồng chải (*Brushed Gold Gooseneck Mixer*).
-  * **Quầy bar ăn sáng:** Chân đảo bếp chừa khoang 3 ghế bar da bò cognac chân gỗ óc chó thời thượng.
-  * **Hệ tủ bếp kịch trần:** Tủ trên phẳng không tay nắm màu trắng ngà (*Casper White*), tủ dưới bằng gỗ sồi tự nhiên chống ẩm.
-  * **Thiết bị nhà bếp:** Bếp từ âm phẳng công suất lớn, hệ tủ lạnh side-by-side và lò nướng/lò vi sóng âm tường đồng bộ đen mờ phẳng lì, hút mùi âm tủ công suất cao không gây tiếng ồn.
-  * **Đèn trang trí:** Bộ 3 đèn thả ống thủy tinh vân sóng viền đồng chải rọi sáng đảo bếp lung linh mỗi tối.
-
-#### 5. CẢI TẠO XƯỞNG THÀNH PHÒNG STUDIO LÀM VIỆC & GIẢI TRÍ (CREATIVE STUDIO & MEDIA LOUNGE)
-* **Hiện trạng cũ:** Phòng Workshop 3.0m x 6.3m trước đây là garage cũ lót thảm vàng ố, tường gạch trần, trần xơ ép cũ, bàn ghế sofa cũ bỏ trống.
-* **Giải pháp thiết kế mới (Ảnh: `05_Studio_Lam_Viec_Giai_Tri.jpg`):**
-  * **Sơn tường & Trần:** Giữ lại kết cấu tường gạch mộc độc đáo nhưng quét sơn trắng sần cao cấp phong cách New York Loft. Trần nhà ốp lam gỗ tiêu âm chống vang (*Acoustic Timber Slat Ceiling*) tích hợp đèn rọi ray nam châm (*Magnetic Track Lights*).
-  * **Khu bàn làm việc đôi (Dual Executive Workstation):** Bàn làm việc gỗ sồi dài 3.6m thiết kế treo lơ lửng có đèn LED âm dưới đáy bàn, hai ghế công thái học cao cấp (Herman Miller Aeron), đợt kệ gỗ trang trí sách và tài liệu.
-  * **Góc đọc sách & Thư giãn:** Ghế bành bọc da bò màu nâu cognac, thảm lông cừu, đèn cây uốn cong bằng đồng thau, chậu cây bàng Singapore lớn.
-  * **Kết nối sân vườn:** Đập bỏ vách bít cũ, thay bằng hệ cửa kính trượt lùa lớn mở thẳng ra hiên gỗ và vườn sau, tạo cảm hứng làm việc và sáng tạo đỉnh cao.
-
-#### 6. PHÒNG NGỦ CHÍNH MASTER (BOUTIQUE HOTEL MASTER SUITE)
-* **Hiện trạng cũ:** Tường trắng đơn điệu, quạt trần cũ, cửa sổ song sắt, rèm nâu trơn cũ.
-* **Giải pháp thiết kế mới (Ảnh: `06_Phong_Ngu_Master.jpg`):**
-  * **Giường ngủ & Vách đầu giường:** Giường nệm King size bọc nỉ be cao cấp, vách ốp đầu giường kết hợp vữa hiệu ứng Venetian Plaster và lam gỗ tiêu âm sồi tự nhiên, đèn ngủ thả trần dây đồng tinh tế.
-  * **Tủ quần áo (Walk-in / Built-in Wardrobe):** Tủ kịch trần cánh kính sọc mờ (*Fluted Glass*) khung nhôm vàng champagne sang trọng, bên trong có đèn LED thanh nhôm tự động sáng khi mở tủ.
-  * **Ánh sáng:** Cửa sổ lớn thay kính hộp cách nhiệt Low-E, rèm voan trắng lụa 2 lớp chạm sàn, mở view kết nối thông thoáng vào phòng tắm Ensuite riêng tư.
-
-#### 7. PHÒNG TẮM CHÍNH PHONG CÁCH SPA NGHỈ DƯỠNG (DAY-SPA BATHROOM)
-* **Hiện trạng cũ:** Gạch mosaic lát sàn màu cam nâu cũ, bồn cầu cũ, vách tắm kính nhôm cũ kỹ.
-* **Giải pháp thiết kế mới (Ảnh: `07_Phong_Tam_Modern_Spa.jpg`):**
-  * **Gạch ốp lát:** Gạch vân đá travertine porcelain khổ lớn 600x1200mm ốp từ sàn lên sát trần tạo cảm giác liền mạch, sạch sẽ và rộng thênh thang.
-  * **Khu tắm đứng Walk-in:** Vách kính cường lực 10mm không khung (*Frameless Glass Screen*), rãnh thoát nước sàn inox dài mạ vàng âm sàn, hốc để dầu gội âm tường có đèn LED chống nước lung linh.
-  * **Thiết bị sen vòi:** Bộ sen cây tắm đứng vuông bát tròn màu vàng đồng chải (*Brushed Brass Waterfall Shower*) tích hợp tay sen tăng áp.
-  * **Tủ chậu Lavabo:** Tủ treo tường gỗ sồi soi rãnh lam sóng (*Fluted Oak Vanity*), mặt đá trắng nhân tạo chống ố, chậu rửa đặt bàn oval sứ cao cấp, gương LED cảm ứng hình vòm vòm cong nghệ thuật.
-  * **Tiện ích cao cấp:** Giàn sấy khăn sưởi điện bằng đồng ấm áp, bồn cầu treo tường két nước âm tường (*Rimless In-wall Toilet*) gọn gàng và vệ sinh tối đa.
+1. **Tuyệt đối không tạo cảnh quan giả (No Fake Ocean/Pool View):** Toàn bộ các góc nhìn nội thất và ngoại thất phải phản ánh đúng bối cảnh đất dân cư Tây Úc: cửa sổ bếp nhìn ra hành lang hông/hàng rào ranh giới; cửa sổ phòng khách nhìn ra sân trước; sân sau là khuôn viên riêng tư khép kín bao quanh bởi tường gạch và hàng rào Colorbond.
+2. **Tuân thủ đúng tỷ lệ phòng 3.6m bề ngang:** Phòng khách và phòng ăn không bố trí dàn trải kiểu đại sảnh 10m mà thiết kế nội thất gọn gàng, tỉ lệ chuẩn theo chiều ngang 3.6m (ghế sofa 3 chỗ vừa vặn, bàn ăn oval gọn gàng, bàn trà tròn thanh mảnh).
+3. **Giữ nguyên kết cấu chịu lực và vị trí mở cửa:** Giữ nguyên vị trí cửa lùa phòng khách sang sảnh Entry, cửa đi phòng giặt ra sân sau, cửa vào phòng xưởng và hệ thống cột nhà xe Carport 5.9m x 6.1m.
 
 ---
 
-### IV. BẢNG TIÊU CHUẨN VẬT LIỆU & NHÀ CUNG CẤP TẠI TÂY ÚC (PERTH, WA)
+### III. PHƯƠNG ÁN 1: RESORT CAO CẤP CHUẨN XÁC CẤU TRÚC (LUXURY MODERN)
 
-| Hạng mục | Chủng loại vật liệu khuyến nghị | Nhà cung cấp uy tín tại Perth |
+* **Ngân sách dự toán:** **$105,000 – $148,000 AUD**
+* **Thời gian thi công:** **8 – 12 tuần**
+
+#### 1. Sân Vườn Sau & Alfresco Chuẩn Hiện Trạng (Ảnh: `PA1_01_San_Sau_Alfresco_Chuan.jpg`)
+* **Khớp 100% hiện trạng `image (1).jpg` & `image (22).jpg`:**
+  * Bên trái: Tường gạch nhà với cửa sổ, cửa phòng giặt và hộp lam gỗ che giấu cục nóng điều hòa tinh tế.
+  * Bên phải: Bức tường gạch ranh giới cao được tận dụng đặt quầy bếp BBQ ngoài trời bằng bê tông mài, tích hợp bếp nướng âm và tủ lạnh quầy bar cánh kính.
+  * Cuối sân: Hàng rào Colorbond phủ giàn dây leo xanh mát.
+  * Nền: Nâng cấp sàn gỗ composite cao cấp *Spotted Gum* chống trơn trượt thay cho thảm cỏ nhân tạo và gạch cũ.
+  * Mái che: Giàn Pergola nhôm đen nhám có hệ lam xoay tự động che nắng mưa vừa vặn khuôn viên sân sau 4m x 6m.
+
+#### 2. Mặt Tiền, Sân Trước & Carport Chuẩn Hiện Trạng (Ảnh: `PA1_02_San_Truoc_Carport_Chuan.jpg`)
+* **Khớp 100% hiện trạng `image (14).jpg` & `image (19).jpg`:**
+  * Góc bên trái: Nhà xe Carport 5.9m x 6.1m với hệ cột được trát phẳng màu trắng đá vôi nhẹ (*Off-white Limestone render*), trần ốp lam gỗ thông sấy tự nhiên âm đèn LED downlight sang trọng.
+  * Chính diện: Tường nhà trát vữa trắng đá vôi kết hợp lam gỗ trang trí quanh 2 ô cửa sổ (Bedroom 3 và Living). Cục nóng điều hòa trước nhà được đóng hộp lam gỗ đồng bộ.
+  * Góc bên phải: Lối đi lát đá dẫn thẳng về cổng ngách vào sân sau.
+  * Nền sân: Thay toàn bộ gạch đỏ hoa văn cũ bằng đá Travertine kem khổ lớn 600x400mm mài mờ chống trơn.
+  * Tiểu cảnh bên trái: Bồn hoa uốn lượn bo cong với cây ô liu cổ thụ, hoa sứ trắng và sỏi trắng cao cấp.
+
+#### 3. Phòng Khách & Phòng Ăn Chuẩn Kích Thước 6.9m x 3.6m
+* Không gian thuôn dài được phân chia 2 khu vực thông minh:
+  * Khu ăn uống (Dining): Bàn ăn oval gỗ sồi 6 chỗ ngồi kẹp đèn thả slimline thanh mảnh, đặt gần cửa sổ đón sáng.
+  * Khu tiếp khách (Living): Sofa góc 3 chỗ bọc vải bouclé màu kem sát tường, kệ tivi treo lơ lửng tối giản có nan gỗ trang trí và đèn hắt LED.
+  * Cửa lùa bên hông: Giữ nguyên vị trí cửa lùa thông sang sảnh Entry và lối đi cụm phòng ngủ.
+  * Sàn: Lát sàn gỗ sồi châu Âu (*European Oak*) đồng bộ.
+
+#### 4. Nhà Bếp Chuẩn Kích Thước 4.2m x 3.1m
+* Tủ bếp kịch trần màu trắng ngà kết hợp gỗ sồi, đảo bếp mặt đá thạch anh Calacatta vân mây kích thước vừa vặn (dài 2.2m x rộng 0.9m) chừa khoảng lùi 1.0m đi lại thoải mái.
+* Bồn rửa đôi đặt đúng vị trí dưới cửa sổ bên hông nhìn ra hành lang hông nhà.
+* Tủ lạnh và tháp lò nướng đặt gọn gàng ở tường sau cạnh cửa phòng giặt.
+
+#### 5. Cải Tạo Xưởng 3.0m x 6.3m Thành Creative Studio
+* Giữ nguyên kích thước hẹp dài 3m x 6.3m: Tường gạch mộc sơn trắng phong cách New York Loft, trần ốp lam gỗ tiêu âm, bàn làm việc đôi chạy dọc tường có đèn LED, ghế bành da đọc sách ở góc và cửa kính mở ra sân sau.
+
+#### 6. Phòng Tắm Chuẩn Kích Thước 3.2m x 1.8m
+* Chiều ngang 1.8m được tối ưu: Tủ lavabo treo tường gỗ sồi 900mm bên trái kèm gương vòm LED, bồn cầu âm tường ở giữa, vách tắm kính đứng không khung ở góc trong bên phải, gạch ốp travertine 600x1200mm liền mạch.
+
+---
+
+### IV. PHƯƠNG ÁN 2: TIẾT KIỆM KINH TẾ & SÂN VƯỜN HOA ĐẶC TRƯNG (SMART BUDGET & FLORAL COTTAGE)
+
+* **Ngân sách dự toán:** **$32,000 – $48,000 AUD** *(Tiết kiệm ~65%)*
+* **Thời gian thi công:** **3 – 5 tuần** *(Rất nhanh gọn, ít xáo trộn sinh hoạt)*
+* **Triết lý:** **Bảo tồn 100% kết cấu khung nhà, tường gạch mộc cổ điển và vị trí kỹ thuật**, chỉ sơn mới bề mặt, cải tạo cảnh quan hoa rực rỡ và phòng tắm thông minh.
+
+#### 1. Sân Sau Vườn Hoa & Góc Trà Thư Giãn (Ảnh: `PA2_01_San_Vuon_Hoa_Sau.jpg`)
+* Giữ nguyên tường gạch mộc đỏ vàng của nhà; bồn hoa uốn lượn viền gạch ngập tràn hoa oải hương tím (*English lavender*), hoa hồng leo trên giàn gỗ, cẩm tú cầu, hoa cúc và sứ đại trắng; thảm cỏ xanh mướt có lối đi lát đá dặm bước (*Stepping stones*) dẫn ra bộ bàn ghế sắt uốn vintage thưởng trà chiều.
+
+#### 2. Mặt Tiền Gạch Mộc & Thảm Hoa Sân Trước (Ảnh: `PA2_02_San_Truoc_Vuon_Hoa.jpg`)
+* Giữ nguyên tường gạch mộc và mái ngói đất nung nguyên bản. Sơn mới khung cửa sổ, cửa chính và khung carport màu xám than sang trọng (*Dulux Monument*). Nền xi măng và sân cũ được xịt rửa áp lực cao và quét sơn phủ chống bám bụi. Sân trước nở rộ thảm hoa bản địa Tây Úc (*Kangaroo Paws* đỏ vàng, lavender, cúc vạn thọ) và hoa hồng leo cổng rào.
+
+#### 3. Phòng Tắm Tinh Tế & Tiết Kiệm Chi Phí (Ảnh: `PA2_03_Phong_Tam_Kinh_Te.jpg`)
+* Giữ nguyên 100% vị trí đường cấp thoát nước của phòng tắm 3.2m x 1.8m (tiết kiệm 70% chi phí thợ ống nước). Tường ốp gạch thẻ subway trắng bóng tinh khôi, sàn gạch xám chống trơn, tủ lavabo gỗ sồi mặt chậu sứ liền khối, vòi và sen tắm đen mờ thời thượng, vách kính trượt và gương tròn viền LED halo.
+
+#### 4. Làm Mới Nội Thất Bếp & Living Tiết Kiệm (Ảnh: `PA2_04_Noi_That_Kinh_Te.jpg`)
+* Giữ nguyên thùng tủ bếp cũ 4.2x3.1m, sơn phủ cánh tủ bằng sơn chuyên dụng *Dulux Renovation Range* màu trắng ấm phối xanh xám thảo mộc (*Muted Sage Green*), thay tay nắm kim loại đen thanh mảnh, thay mặt đá thạch anh tầm trung; sơn trắng sáng toàn bộ tường nhà và trang trí bình hoa rực rỡ.
+
+---
+
+### V. BẢNG SO SÁNH TRỰC DIỆN HAI PHƯƠNG ÁN
+
+| Tiêu chí | 🌟 Phương Án 1 (Full Luxury Resort) | 🌸 Phương Án 2 (Smart Budget & Floral Cottage) |
 | :--- | :--- | :--- |
-| **Sơn nội & ngoại thất** | Dulux Wash&Wear (Interior), Dulux Weathershield (Exterior) | Bunnings Warehouse / Dulux Trade Centre |
-| **Sàn gỗ trong nhà** | European Oak Engineered Timber Flooring (190mm wide plank) | Trevors Carpets / Quick-Step Flooring Perth |
-| **Sàn Decking ngoài trời** | Trex Transcend / ModWood Composite Timber Decking | Bunnings / Timber Decking Supply Shed WA |
-| **Đá mặt bếp & Đảo bếp** | Caesarstone Calacatta Nuvo / Essastone Unique Calacatta | Caesarstone WA / Granite Transformations |
-| **Thiết bị vệ sinh & Vòi** | Brushed Brass Tapware (Mizu Drift / Sussex), Caroma Liano | Reece Plumbing Cannington / Tradelink |
-| **Gạch ốp lát phòng tắm** | Travertine-look Porcelain Tiles (600x1200mm) | Beaumont Tiles Cannington / Crosby Tiles |
-| **Cửa nhôm kính & Sliding doors** | Alspec Black Powder-coated Double Glazed Commercial Frames | Jason Windows WA / Bradnam's Windows |
-| **Cây cảnh & Sân vườn** | Frangipani, Olive Tree, Lomandra, Strelitzia Nikolai | Waldecks Garden Centre / Benara Nurseries |
-
----
-
-### V. KẾ HOẠCH THI CÔNG & DỰ TOÁN NGÂN SÁCH THAM KHẢO (ESTIMATED BUDGET - AUD)
-
-1. **Giai đoạn 1: Phá dỡ & Cải tạo thô (Demo & Rough-in):** $8,000 - $12,000
-   * Tháo dỡ gạch cũ, vách nhôm kính, sàn gạch sân ngoài, dọn dẹp mặt bằng.
-   * Cải tạo đường điện nước âm tường mới cho bếp, phòng tắm, sân vườn.
-2. **Giai đoạn 2: Cải tạo Sân vườn trước & Carport mặt tiền:** $18,000 - $25,000
-   * Lát đá travertine, làm cổng trượt tự động, trồng cây cảnh, ốp lam gỗ carport.
-3. **Giai đoạn 3: Cải tạo Sân sau & Alfresco BBQ Resort:** $22,000 - $30,000
-   * Sàn decking composite, giàn pergola lam xoay, quầy BBQ ngoài trời, bồn hoa LED.
-4. **Giai đoạn 4: Cải tạo Bếp & Không gian mở Living/Dining:** $25,000 - $35,000
-   * Đảo bếp đá Calacatta, hệ tủ bếp kịch trần, sàn gỗ sồi, vách kính trượt lùa.
-5. **Giai đoạn 5: Cải tạo Studio (Workshop cũ) & Phòng ngủ Master:** $14,000 - $20,000
-   * Tường gạch trắng, trần tiêu âm lam gỗ, bàn làm việc đôi âm LED, tủ áo kính.
-6. **Giai đoạn 6: Nâng cấp 2 Phòng tắm (Main Bath & Ensuite):** $18,000 - $26,000
-   * Gạch 600x1200mm, vách kính không khung, thiết bị sen vòi đồng chải, gương LED.
-
-👉 **Tổng ngân sách dự toán trọn gói Phương án 1 (Full Luxury Resort):** **$105,000 - $148,000 AUD**
-*(Mang lại giá trị gia tăng dự kiến cho bất động sản 50A Bungaree Rd từ $250,000 - $350,000 AUD trên thị trường Perth hiện nay).*
-
----
-
-### VI. PHƯƠNG ÁN 2: THIẾT KẾ TIẾT KIỆM KINH TẾ & SÂN VƯỜN HOA ĐẶC TRƯNG (SMART BUDGET & COTTAGE FLORAL OASIS)
-
-* **Triết lý thiết kế:** **Giữ nguyên 100% kết cấu khung nhà & diện mạo tường gạch cổ điển (Preserved Brick Character)**, không can thiệp phá dỡ kết cấu chịu lực, không trát vữa tường ngoài tốn kém, không di dời đường ống nước kỹ thuật. Dành ngân sách đầu tư trọng tâm vào **cảnh quan vườn hoa rực rỡ phong cách Cottage Perth**, cải tạo **phòng tắm tinh tế tiết kiệm** và **làm mới bề mặt nội thất (Cosmetic Refresh)**.
-
-#### 1. Sân Sau Vườn Hoa Rực Rỡ & Góc Trà Chiều (Ảnh: `PA2_01_San_Vuon_Hoa_Sau.jpg`)
-* **Kiến trúc:** Giữ nguyên tường gạch mộc đỏ vàng của nhà; giàn hoa Pergola gỗ mộc đơn giản có dây leo hoa tử đằng (*Wisteria*) và hoa nhài thơm ngát.
-* **Cảnh quan hoa:** Bồn hoa viền gạch bo cong mềm mại với hoa oải hương tím (*English lavender*), hoa hồng bụi hồng và trắng, cẩm tú cầu, hoa cúc vàng, hoa sứ đại hoa trắng ngát hương, giàn hoa giấy (*Bougainvillea*) leo tường gạch.
-* **Không gian thư giãn:** Thảm cỏ xanh mướt (*Sir Walter Buffalo*) có lối đi lát đá dặm bước tự nhiên (*Stepping stones*), bộ bàn ghế sắt uốn nghệ thuật màu trắng kiểu bistro vintage để ngồi thưởng trà ngoài vườn.
-
-#### 2. Sân Trước Vườn Hoa & Mặt Tiền Giữ Nguyên Gạch Mộc (Ảnh: `PA2_02_San_Truoc_Vuon_Hoa.jpg`)
-* **Mặt tiền & Carport:** Giữ nguyên tường gạch mộc và ngói đất nung nguyên bản. Khung cửa sổ, cửa chính và khung nhà xe Carport được sơn lại màu xám than sang trọng (*Dulux Monument*). Nền xi măng và sân cũ được xịt rửa áp lực cao (*Pressure washing*) và quét sơn phủ chống bám bụi (*Concrete sealer*).
-* **Vườn hoa chào đón:** Vỉa hè và sân trước được lấp đầy bởi các khóm hoa rực rỡ đặc trưng Tây Úc: hoa móng vuốt kangaroo (*Kangaroo Paws* đỏ và vàng), hoa lavender tím, hoa cúc vạn thọ, hoa thanh cúc Agapanthus xanh biếc, hoa hồng leo quanh hàng rào sắt được sơn mới.
-
-#### 3. Phòng Tắm Cải Tạo Thông Minh Tiết Kiệm Chi Phí (Ảnh: `PA2_03_Phong_Tam_Kinh_Te.jpg`)
-* **Tiết kiệm tối đa chi phí thợ nước:** Giữ nguyên vị trí đường cấp thoát nước hiện hữu của vòi sen, bồn cầu và lavabo (tiết kiệm được 70% chi phí thợ ống nước - Plumbing trades).
-* **Gạch ốp tường:** Ốp gạch thẻ subway trắng bóng (White glossy subway tiles) phong cách hiện đại, thanh thoát và phản xạ ánh sáng tốt.
-* **Sàn:** Lát gạch porcelain chống trơn màu xám than 300x300mm hoặc 300x600mm.
-* **Thiết bị & Phụ kiện:** Tủ lavabo treo tường gỗ sồi vân sáng mặt chậu sứ trắng liền khối, vòi nước và sen tắm đứng màu đen mờ (*Matte Black*), vách kính trượt nửa khung (*Semi-frameless black sliding shower screen*), gương tròn treo tường có đèn LED hắt viền halo lung linh.
-
-#### 4. Làm Mới Nội Thất Bếp & Phòng Khách Tiết Kiệm (Ảnh: `PA2_04_Noi_That_Kinh_Te.jpg`)
-* **Tủ bếp:** Giữ nguyên thùng tủ cũ, sơn phủ bề mặt cánh tủ chuyên dụng (*Dulux Renovation Range*) tông màu phối 2 lớp: tủ trên trắng ấm, tủ dưới xanh xám thảo mộc (*Muted Sage Green*), thay toàn bộ tay nắm kim loại đen thanh mảnh.
-* **Mặt bếp & Ốp tường:** Thay mặt bàn bếp bằng đá thạch anh nhân tạo tầm trung hoặc laminate chống xước vân đá; ốp tường bếp bằng gạch gốm kit-kat trắng bóng.
-* **Phòng khách:** Sơn mới toàn bộ tường nhà màu trắng sáng (*Dulux Natural White*), giữ sàn gỗ hiện có và đánh bóng làm sạch, bố trí bàn ăn gỗ mộc Scandinavian và sofa nỉ xám kem ấm cúng.
-
-#### 5. Bảng Dự Toán Ngân Sách Phương Án 2 (Chỉ từ $32,000 – $48,000 AUD)
-| Hạng mục cải tạo Phương án 2 | Chi phí ước tính (AUD) | Ghi chú & Giải pháp tiết kiệm |
-| :--- | :--- | :--- |
-| **Sân vườn hoa trước & sau** | $9,000 – $14,000 | Cây hoa bụi, cỏ Buffalo, viền gạch, pergola gỗ, bàn ghế bistro |
-| **Sơn sửa ngoại thất & Carport** | $4,000 – $6,000 | Giữ gạch mộc, sơn khung nhôm cửa, sơn carport màu Monument |
-| **Cải tạo Phòng tắm chính** | $6,500 – $9,500 | Giữ vị trí ống nước, gạch thẻ subway, vách kính, tủ chậu gỗ, vòi đen |
-| **Làm mới Bếp (Sơn cánh, đá mới, ốp)** | $5,500 – $8,500 | Sơn tủ bếp Dulux Renovation, mặt đá thạch anh tầm trung, vòi mới |
-| **Sơn tường trong nhà & Rèm cửa** | $4,500 – $6,500 | Sơn trắng toàn bộ tường trong nhà, rèm voan 2 lớp hiện đại |
-| **Dọn dẹp & Phụ kiện decor** | $2,500 – $3,500 | Đèn chiếu sáng LED, thảm sàn, tranh treo tường, cây cảnh |
-| **TỔNG DỰ TOÁN PHƯƠNG ÁN 2:** | **$32,000 – $48,000 AUD** | **Tiết kiệm ~65% so với Phương án 1 ($105k-$148k)** |
-
----
-
-### VII. SO SÁNH TRỰC DIỆN GIỮA HAI PHƯƠNG ÁN (OPTION 1 VS OPTION 2)
-
-| Tiêu chí | Phương Án 1: Full Luxury Resort | Phương Án 2: Smart Budget & Floral Cottage |
-| :--- | :--- | :--- |
-| **Ngân sách đầu tư** | $105,000 – $148,000 AUD | **$32,000 – $48,000 AUD (Rẻ hơn ~65%)** |
-| **Mặt ngoài ngôi nhà** | Trát bả vữa trắng đá vôi, ốp lam gỗ cao cấp | **Giữ nguyên 100% tường gạch mộc cổ điển, sơn viền cửa** |
-| **Sân vườn** | Sàn composite, mái nhôm xoay louvre, bếp BBQ bê tông | **Vườn hoa Cottage rực rỡ (Lavender, hồng, cúc), cỏ xanh, giàn hoa** |
-| **Phòng tắm** | Gạch travertine 600x1200mm, sen âm tường đồng chải cao cấp | **Gạch thẻ subway trắng, giữ nguyên ống nước, vòi đen mờ, gương LED** |
-| **Nhà bếp** | Thay mới toàn bộ, đảo Calacatta waterfall 2 bên | **Giữ khung tủ cũ, sơn màu Sage Green/trắng, thay mặt đá & tay nắm** |
+| **Ngân sách đầu tư** | $105,000 – $148,000 AUD | **$32,000 – $48,000 AUD (Tiết kiệm ~65%)** |
+| **Mặt ngoài & Khung nhà** | Trát phẳng vữa trắng đá vôi, ốp lam gỗ cao cấp | **Giữ nguyên 100% tường gạch mộc cổ điển, sơn viền cửa xám than** |
+| **Sân vườn** | Sàn composite, mái nhôm xoay louvre, quầy BBQ bê tông | **Vườn hoa Cottage rực rỡ (Lavender, hồng, cúc), cỏ thật, góc trà** |
+| **Phòng tắm** | Gạch travertine 600x1200, sen âm tường đồng chải cao cấp | **Gạch subway trắng sáng, giữ nguyên ống nước, sen vòi đen, gương LED** |
+| **Nhà bếp** | Thay mới toàn bộ, đảo Calacatta waterfall | **Giữ khung tủ cũ, sơn màu Sage Green & trắng, thay mặt đá mới** |
 | **Thời gian thi công** | 8 – 12 tuần | **3 – 5 tuần (rất nhanh gọn, ít xáo trộn sinh hoạt)** |
-| **Phong cách phù hợp** | Biệt thự nghỉ dưỡng sang trọng, gia tăng tối đa giá trị bán | Không gian ấm cúng, ngập tràn sắc hoa, tiết kiệm chi phí tối đa |
-
----
-
-### VIII. DANH SÁCH ẢNH THIẾT KẾ ĐÃ HOÀN THIỆN LƯU TẠI THƯ MỤC `New/`
-
-**Nhóm Phương án 1 (Full Luxury Resort):**
-1. `01_San_Vuon_Sau_Alfresco.jpg`: Sân vườn sau, Pergola mái lật, Bếp BBQ ngoài trời.
-2. `02_San_Truoc_Mat_Tien_Carport.jpg`: Mặt tiền trắng đá vôi, Carport ốp gỗ, Đá lát Travertine.
-3. `03_Phong_Khach_Phong_An.jpg`: Không gian mở Living & Dining Japandi, vách lam gỗ LED.
-4. `04_Nha_Bep_Dao_Bep.jpg`: Bếp cao cấp với Đảo đá Calacatta thác nước.
-5. `05_Studio_Lam_Viec_Giai_Tri.jpg`: Cải tạo Workshop cũ thành Studio làm việc & Lounge.
-6. `06_Phong_Ngu_Master.jpg`: Phòng ngủ Master Boutique Hotel & Tủ áo kính LED.
-7. `07_Phong_Tam_Modern_Spa.jpg`: Phòng tắm Spa với vách tắm kính, sen âm đồng chải.
-
-**Nhóm Phương án 2 (Smart Budget & Floral Cottage):**
-8. `PA2_01_San_Vuon_Hoa_Sau.jpg`: Sân sau vườn hoa rực rỡ, giàn hoa tử đằng, góc trà chiều vintage.
-9. `PA2_02_San_Truoc_Vuon_Hoa.jpg`: Mặt tiền giữ nguyên gạch mộc cổ điển, sân trước thảm hoa kangaroo paw & lavender.
-10. `PA2_03_Phong_Tam_Kinh_Te.jpg`: Phòng tắm gạch subway trắng sáng, giữ ống nước, vách kính & gương tròn LED.
-11. `PA2_04_Noi_That_Kinh_Te.jpg`: Phòng khách & bếp làm mới tiết kiệm, tủ sơn màu sage green & trắng.
-
+| **Mục tiêu ưu tiên** | Đẳng cấp nghỉ dưỡng, gia tăng giá trị định giá nhà tối đa | Không gian ngập tràn hoa lá thơ mộng, tiết kiệm chi phí tối đa |
