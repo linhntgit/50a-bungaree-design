@@ -14,6 +14,9 @@
       --card-border: #30363d;
       --accent: #d4a373;
       --accent-light: #faedcd;
+      --pink-accent: #e5989b;
+      --pink-light: #ffb4a2;
+      --green-accent: #6b9080;
       --text: #f0f6fc;
       --text-muted: #8b949e;
       --gold: #e5b869;
@@ -32,14 +35,20 @@
     .hero {
       position: relative;
       height: 70vh;
-      min-height: 480px;
+      min-height: 520px;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       padding: 60px 8%;
-      background: linear-gradient(180deg, rgba(13,17,23,0.2) 0%, rgba(13,17,23,0.95) 100%),
+      background: linear-gradient(180deg, rgba(13,17,23,0.3) 0%, rgba(13,17,23,0.95) 100%),
                   url('02_San_Truoc_Mat_Tien_Carport.jpg') center/cover no-repeat;
       border-bottom: 1px solid var(--card-border);
+    }
+    .hero-badge-wrap {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
     }
     .hero-badge {
       display: inline-flex;
@@ -50,12 +59,15 @@
       color: var(--accent-light);
       padding: 6px 14px;
       border-radius: 999px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
-      letter-spacing: 1px;
+      letter-spacing: 0.8px;
       text-transform: uppercase;
-      margin-bottom: 16px;
-      width: fit-content;
+    }
+    .hero-badge.badge-opt2 {
+      background: rgba(229, 152, 155, 0.2);
+      border-color: var(--pink-accent);
+      color: var(--pink-light);
     }
     .hero h1 {
       font-family: 'Playfair Display', serif;
@@ -68,7 +80,7 @@
     .hero p {
       font-size: 1.15rem;
       color: var(--accent-light);
-      max-width: 750px;
+      max-width: 800px;
       margin-bottom: 24px;
     }
     .hero-stats {
@@ -100,10 +112,67 @@
       padding: 40px 24px;
     }
 
+    /* Option Banner / Toggle */
+    .option-banner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 36px;
+    }
+    @media (max-width: 768px) {
+      .option-banner { grid-template-columns: 1fr; }
+    }
+    .opt-box {
+      background: var(--card-bg);
+      border: 2px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px 24px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .opt-box:hover {
+      transform: translateY(-2px);
+    }
+    .opt-box.active-opt1 {
+      border-color: var(--accent);
+      background: linear-gradient(135deg, rgba(212,163,115,0.12) 0%, rgba(22,27,34,0.95) 100%);
+      box-shadow: 0 8px 24px rgba(212,163,115,0.15);
+    }
+    .opt-box.active-opt2 {
+      border-color: var(--pink-accent);
+      background: linear-gradient(135deg, rgba(229,152,155,0.12) 0%, rgba(22,27,34,0.95) 100%);
+      box-shadow: 0 8px 24px rgba(229,152,155,0.15);
+    }
+    .opt-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .opt-price {
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 999px;
+    }
+    .price-1 { background: rgba(212,163,115,0.2); color: var(--accent); }
+    .price-2 { background: rgba(229,152,155,0.2); color: var(--pink-accent); }
+    .opt-summary {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
     /* Navigation Tabs */
     .tab-bar {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       border-bottom: 1px solid var(--card-border);
       padding-bottom: 16px;
       margin-bottom: 40px;
@@ -113,10 +182,10 @@
       background: transparent;
       border: 1px solid var(--card-border);
       color: var(--text-muted);
-      padding: 10px 22px;
+      padding: 10px 20px;
       border-radius: 8px;
       font-family: inherit;
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.2s ease;
@@ -164,9 +233,11 @@
     }
     .design-card:hover {
       transform: translateY(-4px);
-      border-color: rgba(212, 163, 115, 0.5);
       box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
     }
+    .design-card.card-opt1:hover { border-color: rgba(212, 163, 115, 0.6); }
+    .design-card.card-opt2:hover { border-color: rgba(229, 152, 155, 0.6); }
+
     .card-media {
       position: relative;
       height: 280px;
@@ -186,7 +257,7 @@
       position: absolute;
       top: 14px;
       left: 14px;
-      background: rgba(13, 17, 23, 0.8);
+      background: rgba(13, 17, 23, 0.85);
       backdrop-filter: blur(8px);
       color: var(--accent-light);
       padding: 5px 12px;
@@ -194,6 +265,10 @@
       font-size: 0.75rem;
       font-weight: 700;
       border: 1px solid rgba(255,255,255,0.1);
+    }
+    .media-badge.pink {
+      color: var(--pink-light);
+      border-color: rgba(229,152,155,0.3);
     }
     .card-content {
       padding: 24px;
@@ -226,6 +301,10 @@
       padding: 4px 10px;
       border-radius: 4px;
     }
+    .tag.pink {
+      background: rgba(229,152,155,0.15);
+      color: var(--pink-light);
+    }
 
     /* Before / After Comparison */
     .ba-section {
@@ -257,13 +336,35 @@
       align-items: center;
     }
     .ba-header.before { background: #2d1818; color: #ff7b72; }
-    .ba-header.after { background: #162d1d; color: #7ee787; }
+    .ba-header.after1 { background: #162d1d; color: #7ee787; }
+    .ba-header.after2 { background: #3b202c; color: #ffb4a2; }
     .ba-item img {
       width: 100%;
       height: 240px;
       object-fit: cover;
       display: block;
+      cursor: pointer;
     }
+
+    /* Comparison Matrix Table */
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+      font-size: 0.92rem;
+    }
+    .matrix-table th, .matrix-table td {
+      padding: 14px 18px;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .matrix-table th {
+      background: #161b22;
+      color: #fff;
+      font-weight: 700;
+    }
+    .matrix-table td { color: #c9d1d9; }
+    .matrix-table tr:hover td { background: rgba(255,255,255,0.02); }
 
     /* Floorplan & Specs */
     .plan-box {
@@ -283,6 +384,7 @@
       width: 100%;
       border-radius: 12px;
       border: 1px solid var(--card-border);
+      cursor: pointer;
     }
     .spec-table {
       width: 100%;
@@ -331,9 +433,12 @@
 
   <!-- Hero Section -->
   <header class="hero">
-    <div class="hero-badge">✦ Architectural Redesign Proposal</div>
+    <div class="hero-badge-wrap">
+      <div class="hero-badge">✦ Option 1: Luxury Resort ($105k-$148k)</div>
+      <div class="hero-badge badge-opt2">🌸 Option 2: Floral Cottage & Budget ($32k-$48k)</div>
+    </div>
     <h1>50A Bungaree Road, Wilson WA 6107</h1>
-    <p>Bản thiết kế cải tạo toàn diện Sân vườn ngoài trời, Kiến trúc mặt tiền & Nội thất phong cách Australian Coastal Contemporary & Japandi.</p>
+    <p>Bản thiết kế cải tạo toàn diện Sân vườn ngoài trời, Mặt tiền kiến trúc & Nội thất cho gia đình với 2 phương án ngân sách linh hoạt.</p>
     <div class="hero-stats">
       <div class="stat-item">
         <span class="stat-val">155.0 m²</span>
@@ -357,23 +462,45 @@
   <!-- Main Content -->
   <main class="container">
 
-    <!-- Tab Bar -->
-    <div class="tab-bar">
-      <button class="tab-btn active" onclick="switchTab('all')">Tất cả hình ảnh (All 7 Renders)</button>
-      <button class="tab-btn" onclick="switchTab('landscape')">Sân vườn & Ngoại thất (Landscape)</button>
-      <button class="tab-btn" onclick="switchTab('interior')">Nội thất (Interiors)</button>
-      <button class="tab-btn" onclick="switchTab('comparison')">So sánh Trước / Sau (Before & After)</button>
-      <button class="tab-btn" onclick="switchTab('floorplan')">Mặt bằng & Dự toán (Floorplan & Specs)</button>
+    <!-- Option Selection Banner -->
+    <div class="option-banner">
+      <div class="opt-box active-opt1" id="banner-opt1" onclick="selectOptionTab('opt1')">
+        <div>
+          <div class="opt-title">
+            <span>🌟 Phương Án 1: Luxury Resort & Japandi</span>
+            <span class="opt-price price-1">$105k - $148k AUD</span>
+          </div>
+          <p class="opt-summary">Cải tạo lột xác toàn diện cao cấp: Trát trắng đá vôi mặt ngoài, mái lật pergola xoay, sàn decking composite, bếp đảo Calacatta waterfall, biến xưởng thành Creative Studio.</p>
+        </div>
+      </div>
+
+      <div class="opt-box" id="banner-opt2" onclick="selectOptionTab('opt2')">
+        <div>
+          <div class="opt-title">
+            <span>🌸 Phương Án 2: Sân Vườn Hoa & Tiết Kiệm</span>
+            <span class="opt-price price-2">$32k - $48k AUD (Tiết kiệm ~65%)</span>
+          </div>
+          <p class="opt-summary">Giữ nguyên 100% khung nhà & tường gạch mộc cổ điển, sân trước & sau ngập tràn sắc hoa rực rỡ (Lavender, hồng, cúc), cải tạo phòng tắm thông minh và sơn mới nội thất.</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Gallery Grid -->
-    <section id="gallery-section">
-      <h2 class="section-title">Phối Cảnh 3D Thiết Kế Mới</h2>
-      <p class="section-subtitle">Nhấp vào bất kỳ ảnh nào để xem phóng to ở độ phân giải siêu nét (8K Ultra-HD).</p>
+    <!-- Navigation Tabs -->
+    <div class="tab-bar">
+      <button class="tab-btn active" id="btn-tab-opt1" onclick="selectOptionTab('opt1')">🌟 Phương Án 1: Luxury Resort (7 Renders)</button>
+      <button class="tab-btn" id="btn-tab-opt2" onclick="selectOptionTab('opt2')">🌸 Phương Án 2: Vườn Hoa & Tiết Kiệm (4 Renders)</button>
+      <button class="tab-btn" id="btn-tab-comp" onclick="selectOptionTab('comparison')">🔄 So Sánh Trực Diện Hai Phương Án</button>
+      <button class="tab-btn" id="btn-tab-plan" onclick="selectOptionTab('floorplan')">📐 Mặt Bằng & Bảng Dự Toán</button>
+    </div>
+
+    <!-- SECTION: PHƯƠNG ÁN 1 -->
+    <section id="section-opt1">
+      <h2 class="section-title">Phương Án 1: Resort Nghỉ Dưỡng Sang Trọng (Luxury Modern)</h2>
+      <p class="section-subtitle">Phương án cải tạo cao cấp toàn diện phong cách Australian Coastal kết hợp Japandi. Ngân sách ước tính: $105,000 - $148,000 AUD.</p>
 
       <div class="design-grid">
         <!-- Card 1 -->
-        <div class="design-card" data-category="landscape">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('01_San_Vuon_Sau_Alfresco.jpg')">
             <span class="media-badge">SÂN SAU RESORT</span>
             <img src="01_San_Vuon_Sau_Alfresco.jpg" alt="Sân vườn sau Alfresco">
@@ -391,14 +518,14 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="design-card" data-category="landscape">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('02_San_Truoc_Mat_Tien_Carport.jpg')">
             <span class="media-badge">MẶT TIỀN & SÂN TRƯỚC</span>
             <img src="02_San_Truoc_Mat_Tien_Carport.jpg" alt="Mặt tiền sân trước Carport">
           </div>
           <div class="card-content">
             <h3 class="card-title">02. Mặt Tiền, Sân Trước & Nhà Xe Carport</h3>
-            <p class="card-desc">Tường ngoài trát trắng đá vôi nhẹ kết hợp ốp lam gỗ tự nhiên, nhà để xe Carport đôi khung thép sơn đen trần ốp gỗ đèn downlight, đá lát Travertine kem khổ lớn, hàng rào lam nhôm đen và trụ thư LED số '50A'.</p>
+            <p class="card-desc">Tường ngoài trát trắng đá vôi nhẹ kết hợp ốp lam gỗ tự nhiên, nhà để xe Carport đôi khung thép đen trần ốp gỗ đèn downlight, đá lát Travertine kem khổ lớn, hàng rào lam nhôm đen và trụ thư LED số '50A'.</p>
             <div class="feature-tags">
               <span class="tag">Limestone Render</span>
               <span class="tag">Double Carport Timber Ceiling</span>
@@ -409,7 +536,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="design-card" data-category="interior">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('03_Phong_Khach_Phong_An.jpg')">
             <span class="media-badge">PHÒNG KHÁCH & ĂN</span>
             <img src="03_Phong_Khach_Phong_An.jpg" alt="Phòng khách và phòng ăn">
@@ -427,7 +554,7 @@
         </div>
 
         <!-- Card 4 -->
-        <div class="design-card" data-category="interior">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('04_Nha_Bep_Dao_Bep.jpg')">
             <span class="media-badge">NHÀ BẾP HIỆN ĐẠI</span>
             <img src="04_Nha_Bep_Dao_Bep.jpg" alt="Nhà bếp và đảo bếp">
@@ -445,7 +572,7 @@
         </div>
 
         <!-- Card 5 -->
-        <div class="design-card" data-category="interior">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('05_Studio_Lam_Viec_Giai_Tri.jpg')">
             <span class="media-badge">CẢI TẠO STUDIO WORKSHOP</span>
             <img src="05_Studio_Lam_Viec_Giai_Tri.jpg" alt="Studio làm việc giải trí">
@@ -463,7 +590,7 @@
         </div>
 
         <!-- Card 6 -->
-        <div class="design-card" data-category="interior">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('06_Phong_Ngu_Master.jpg')">
             <span class="media-badge">PHÒNG NGỦ MASTER</span>
             <img src="06_Phong_Ngu_Master.jpg" alt="Phòng ngủ Master">
@@ -481,7 +608,7 @@
         </div>
 
         <!-- Card 7 -->
-        <div class="design-card" data-category="interior">
+        <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('07_Phong_Tam_Modern_Spa.jpg')">
             <span class="media-badge">PHÒNG TẮM SPA</span>
             <img src="07_Phong_Tam_Modern_Spa.jpg" alt="Phòng tắm hiện đại">
@@ -500,70 +627,206 @@
       </div>
     </section>
 
-    <!-- Before & After Section -->
-    <section id="comparison-section" class="ba-section">
-      <h2 class="section-title">So Sánh Hiện Trạng & Thiết Kế Mới (Before & After)</h2>
-      <p class="section-subtitle">Xem sự lột xác ngoạn mục giữa không gian nhà cũ và phương án thiết kế hiện đại.</p>
+    <!-- SECTION: PHƯƠNG ÁN 2 -->
+    <section id="section-opt2" style="display: none;">
+      <h2 class="section-title">Phương Án 2: Sân Vườn Hoa Rực Rỡ & Tiết Kiệm (Floral Cottage & Budget)</h2>
+      <p class="section-subtitle">Giữ nguyên 100% khung nhà & tường gạch mộc cổ điển, tập trung ngân sách làm vườn hoa thơ mộng, cải tạo phòng tắm thông minh và sơn mới nội thất. Ngân sách: $32,000 - $48,000 AUD.</p>
 
-      <div class="ba-grid">
-        <!-- Pair 1: Sân sau -->
-        <div class="ba-item">
-          <div class="ba-header before">SÂN SAU HIỆN TRẠNG (BEFORE)</div>
-          <img src="before_backyard.jpg" alt="Sân sau cũ">
-        </div>
-        <div class="ba-item">
-          <div class="ba-header after">SÂN SAU THIẾT KẾ MỚI (AFTER)</div>
-          <img src="01_San_Vuon_Sau_Alfresco.jpg" alt="Sân sau mới">
-        </div>
-
-        <!-- Pair 2: Sân trước -->
-        <div class="ba-item">
-          <div class="ba-header before">SÂN TRƯỚC & CARPORT HIỆN TRẠNG (BEFORE)</div>
-          <img src="before_frontyard.jpg" alt="Sân trước cũ">
-        </div>
-        <div class="ba-item">
-          <div class="ba-header after">SÂN TRƯỚC & CARPORT THIẾT KẾ MỚI (AFTER)</div>
-          <img src="02_San_Truoc_Mat_Tien_Carport.jpg" alt="Sân trước mới">
+      <div class="design-grid">
+        <!-- Card PA2 - 1 -->
+        <div class="design-card card-opt2">
+          <div class="card-media" onclick="openModal('PA2_01_San_Vuon_Hoa_Sau.jpg')">
+            <span class="media-badge pink">🌸 VƯỜN HOA SÂN SAU</span>
+            <img src="PA2_01_San_Vuon_Hoa_Sau.jpg" alt="Vườn hoa sân sau rực rỡ">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">01. Sân Sau Vườn Hoa Rực Rỡ & Góc Trà Thư Giãn</h3>
+            <p class="card-desc">Giữ nguyên tường gạch mộc nguyên bản; bồn hoa uốn lượn viền gạch ngập tràn hoa oải hương tím, hoa hồng leo nở rộ trên giàn gỗ, cẩm tú cầu, hoa cúc và sứ đại trắng; lối đi lát đá dặm bước trên cỏ xanh mướt và bộ bàn ghế sắt uốn vintage thưởng trà chiều.</p>
+            <div class="feature-tags">
+              <span class="tag pink">Lavender & Rose Blooms</span>
+              <span class="tag pink">Stepping Stones Pathway</span>
+              <span class="tag pink">Vintage Bistro Tea Corner</span>
+              <span class="tag pink">Preserved Brick Wall</span>
+            </div>
+          </div>
         </div>
 
-        <!-- Pair 3: Bếp -->
-        <div class="ba-item">
-          <div class="ba-header before">NHÀ BẾP HIỆN TRẠNG (BEFORE)</div>
-          <img src="before_kitchen.jpg" alt="Bếp cũ">
-        </div>
-        <div class="ba-item">
-          <div class="ba-header after">NHÀ BẾP THIẾT KẾ MỚI (AFTER)</div>
-          <img src="04_Nha_Bep_Dao_Bep.jpg" alt="Bếp mới">
+        <!-- Card PA2 - 2 -->
+        <div class="design-card card-opt2">
+          <div class="card-media" onclick="openModal('PA2_02_San_Truoc_Vuon_Hoa.jpg')">
+            <span class="media-badge pink">🌸 MẶT TIỀN GẠCH MỘC & VƯỜN HOA</span>
+            <img src="PA2_02_San_Truoc_Vuon_Hoa.jpg" alt="Mặt tiền gạch mộc và vườn hoa sân trước">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">02. Mặt Tiền Giữ Nguyên Gạch Cổ Điển & Thảm Hoa Sân Trước</h3>
+            <p class="card-desc">Bảo tồn trọn vẹn tường gạch đỏ vàng và mái ngói đất nung đặc trưng của nhà 50A Bungaree Rd (không trát tường tốn kém). Sơn mới khung cửa và carport màu xám than Monument sang trọng; sân trước biến thành thảm hoa kangaroo paws, cúc vạn thọ và lavender rực rỡ.</p>
+            <div class="feature-tags">
+              <span class="tag pink">Original Brick Charm</span>
+              <span class="tag pink">Dulux Monument Trims</span>
+              <span class="tag pink">Kangaroo Paws & Lavender</span>
+              <span class="tag pink">Low-cost High-impact</span>
+            </div>
+          </div>
         </div>
 
-        <!-- Pair 4: Workshop / Studio -->
-        <div class="ba-item">
-          <div class="ba-header before">XƯỞNG WORKSHOP CŨ (BEFORE)</div>
-          <img src="before_workshop.jpg" alt="Xưởng cũ">
+        <!-- Card PA2 - 3 -->
+        <div class="design-card card-opt2">
+          <div class="card-media" onclick="openModal('PA2_03_Phong_Tam_Kinh_Te.jpg')">
+            <span class="media-badge pink">🚿 PHÒNG TẮM THÔNG MINH TIẾT KIỆM</span>
+            <img src="PA2_03_Phong_Tam_Kinh_Te.jpg" alt="Phòng tắm thông minh tiết kiệm chi phí">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">03. Phòng Tắm Tinh Tế & Tối Ưu Chi Phí</h3>
+            <p class="card-desc">Giữ nguyên vị trí đường cấp thoát nước (tiết kiệm 70% chi phí thợ ống nước). Tường ốp gạch thẻ subway trắng bóng tinh khôi, sàn gạch xám chống trơn, tủ lavabo gỗ sồi mặt chậu sứ liền khối, vòi và sen tắm đen mờ thời thượng, vách kính trượt và gương tròn viền LED halo.</p>
+            <div class="feature-tags">
+              <span class="tag pink">Retained Plumbing Points</span>
+              <span class="tag pink">Glossy Subway Wall Tiles</span>
+              <span class="tag pink">Matte Black Tapware</span>
+              <span class="tag pink">Circular LED Halo Mirror</span>
+            </div>
+          </div>
         </div>
-        <div class="ba-item">
-          <div class="ba-header after">STUDIO LÀM VIỆC & LOUNGE MỚI (AFTER)</div>
-          <img src="05_Studio_Lam_Viec_Giai_Tri.jpg" alt="Studio mới">
+
+        <!-- Card PA2 - 4 -->
+        <div class="design-card card-opt2">
+          <div class="card-media" onclick="openModal('PA2_04_Noi_That_Kinh_Te.jpg')">
+            <span class="media-badge pink">🛋️ LÀM MỚI BẾP & PHÒNG KHÁCH</span>
+            <img src="PA2_04_Noi_That_Kinh_Te.jpg" alt="Làm mới nội thất bếp và phòng khách">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">04. Làm Mới Nội Thất Bếp & Living Bằng Sơn Chuyên Dụng</h3>
+            <p class="card-desc">Giữ nguyên thùng tủ bếp cũ, sơn phủ cánh tủ bằng sơn chuyên dụng Dulux Renovation màu trắng ấm và xanh xám Sage Green, thay tay nắm kim loại đen thanh mảnh, thay mặt đá thạch anh tầm trung; sơn trắng sáng toàn bộ tường nhà và trang trí bình hoa rực rỡ.</p>
+            <div class="feature-tags">
+              <span class="tag pink">Cabinetry Repaint (Sage Green)</span>
+              <span class="tag pink">New Quartz Countertop</span>
+              <span class="tag pink">Dulux Wash&Wear Natural White</span>
+              <span class="tag pink">Cottage Flower Styling</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Floorplan & Specs Section -->
-    <section id="floorplan-section">
-      <h2 class="section-title">Mặt Bằng Hiện Hữu & Dự Toán Thi Công</h2>
-      <p class="section-subtitle">Thông số diện tích chi tiết và ngân sách dự toán theo mặt bằng 50A Bungaree Road, Wilson WA.</p>
+    <!-- SECTION: COMPARISON & MATRIX -->
+    <section id="section-comparison" class="ba-section" style="display: none;">
+      <h2 class="section-title">So Sánh Trực Diện Hai Phương Án & Hiện Trạng</h2>
+      <p class="section-subtitle">Đối chiếu trực quan giữa hiện trạng cũ, Phương Án 1 (Resort) và Phương Án 2 (Vườn hoa tiết kiệm).</p>
+
+      <!-- Matrix Table -->
+      <table class="matrix-table">
+        <thead>
+          <tr>
+            <th>Hạng mục</th>
+            <th>Hiện trạng nhà cũ</th>
+            <th style="color: var(--accent);">Phương Án 1 (Full Luxury Resort)</th>
+            <th style="color: var(--pink-light);">Phương Án 2 (Floral Cottage & Budget)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Ngân sách ước tính</strong></td>
+            <td>-</td>
+            <td><strong>$105,000 – $148,000 AUD</strong></td>
+            <td><strong style="color: #7ee787;">$32,000 – $48,000 AUD (Tiết kiệm ~65%)</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Mặt ngoài & Khung nhà</strong></td>
+            <td>Gạch đỏ vàng cũ, sơn phai</td>
+            <td>Trát trắng đá vôi, ốp lam gỗ cao cấp</td>
+            <td><strong>Giữ 100% gạch mộc nguyên bản, sơn viền cửa xám than</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Sân sau</strong></td>
+            <td>Cỏ nhân tạo, sàn gạch cũ</td>
+            <td>Sàn composite, mái nhôm xoay, bếp BBQ</td>
+            <td><strong>Vườn hoa rực rỡ (Lavender, hồng, cúc), cỏ thật, bàn trà vintage</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Sân trước & Carport</strong></td>
+            <td>Gạch lát cam cũ, hàng rào kem</td>
+            <td>Lát Travertine, carport ốp gỗ đèn âm</td>
+            <td><strong>Làm sạch nền, thảm hoa Kangaroo Paw, sơn mới carport</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Phòng tắm</strong></td>
+            <td>Gạch mosaic cam cũ, vách nhôm</td>
+            <td>Gạch travertine 600x1200, sen âm vàng đồng</td>
+            <td><strong>Giữ vị trí ống nước, gạch thẻ subway trắng, sen vòi đen, gương tròn LED</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Nhà bếp</strong></td>
+            <td>Tủ melamine vàng cũ, mặt laminate</td>
+            <td>Thay mới toàn bộ, đảo Calacatta thác nước</td>
+            <td><strong>Giữ khung tủ, sơn màu Sage Green & trắng, thay đá mới</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Thời gian thi công</strong></td>
+            <td>-</td>
+            <td>8 – 12 tuần</td>
+            <td><strong>3 – 5 tuần (rất nhanh gọn, ít ồn ào bụi bặm)</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Visual Before & After Pairs -->
+      <div class="ba-grid" style="margin-top: 36px;">
+        <div class="ba-item">
+          <div class="ba-header before">SÂN SAU HIỆN TRẠNG (BEFORE)</div>
+          <img src="before_backyard.jpg" alt="Sân sau cũ" onclick="openModal('before_backyard.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after1">PHƯƠNG ÁN 1: ALFRESCO RESORT</div>
+          <img src="01_San_Vuon_Sau_Alfresco.jpg" alt="Sân sau PA1" onclick="openModal('01_San_Vuon_Sau_Alfresco.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after2">PHƯƠNG ÁN 2: VƯỜN HOA COTTAGE</div>
+          <img src="PA2_01_San_Vuon_Hoa_Sau.jpg" alt="Sân sau PA2" onclick="openModal('PA2_01_San_Vuon_Hoa_Sau.jpg')">
+        </div>
+
+        <div class="ba-item">
+          <div class="ba-header before">MẶT TIỀN & SÂN TRƯỚC (BEFORE)</div>
+          <img src="before_frontyard.jpg" alt="Sân trước cũ" onclick="openModal('before_frontyard.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after1">PHƯƠNG ÁN 1: MẶT TIỀN TRẮNG ĐÁ VÔI</div>
+          <img src="02_San_Truoc_Mat_Tien_Carport.jpg" alt="Sân trước PA1" onclick="openModal('02_San_Truoc_Mat_Tien_Carport.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after2">PHƯƠNG ÁN 2: GẠCH MỘC & HOA KANGAROO PAW</div>
+          <img src="PA2_02_San_Truoc_Vuon_Hoa.jpg" alt="Sân trước PA2" onclick="openModal('PA2_02_San_Truoc_Vuon_Hoa.jpg')">
+        </div>
+
+        <div class="ba-item">
+          <div class="ba-header before">PHÒNG TẮM CŨ (BEFORE)</div>
+          <img src="before_bathroom.jpg" alt="Phòng tắm cũ" onclick="openModal('before_bathroom.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after1">PHƯƠNG ÁN 1: PHÒNG TẮM TRAVERTINE SPA</div>
+          <img src="07_Phong_Tam_Modern_Spa.jpg" alt="Phòng tắm PA1" onclick="openModal('07_Phong_Tam_Modern_Spa.jpg')">
+        </div>
+        <div class="ba-item">
+          <div class="ba-header after2">PHƯƠNG ÁN 2: PHÒNG TẮM SUBWAY TIẾT KIỆM</div>
+          <img src="PA2_03_Phong_Tam_Kinh_Te.jpg" alt="Phòng tắm PA2" onclick="openModal('PA2_03_Phong_Tam_Kinh_Te.jpg')">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FLOORPLAN & SPECS -->
+    <section id="section-floorplan" style="display: none;">
+      <h2 class="section-title">Mặt Bằng Công Năng & Chi Tiết Dự Toán</h2>
+      <p class="section-subtitle">Thông số diện tích chi tiết và bảng ngân sách so sánh 50A Bungaree Road, Wilson WA.</p>
 
       <div class="plan-box">
         <div>
-          <img src="floorplan.jpg" alt="Mặt bằng 50A Bungaree Road">
+          <img src="floorplan.jpg" alt="Mặt bằng 50A Bungaree Road" onclick="openModal('floorplan.jpg')">
         </div>
         <div>
-          <h3 style="font-size: 1.3rem; color: #fff; margin-bottom: 12px;">Bảng Phân Bổ Diện Tích</h3>
+          <h3 style="font-size: 1.3rem; color: #fff; margin-bottom: 12px;">Phân Bổ Diện Tích 50A Bungaree Rd</h3>
           <table class="spec-table">
             <tr><th>Khu vực</th><th>Kích thước</th><th>Diện tích</th></tr>
             <tr><td>Living / Dining</td><td>6.9m x 3.6m</td><td>24.8 m²</td></tr>
             <tr><td>Kitchen</td><td>4.2m x 3.1m</td><td>13.0 m²</td></tr>
-            <tr><td>Creative Studio (Workshop)</td><td>3.0m x 6.3m</td><td>18.9 m²</td></tr>
+            <tr><td>Creative Studio (Workshop cũ)</td><td>3.0m x 6.3m</td><td>18.9 m²</td></tr>
             <tr><td>Master Bedroom + Ensuite</td><td>3.2m x 4.1m</td><td>16.6 m²</td></tr>
             <tr><td>Bedroom 2</td><td>4.3m x 3.3m</td><td>14.2 m²</td></tr>
             <tr><td>Bedroom 3</td><td>3.2m x 3.1m</td><td>9.9 m²</td></tr>
@@ -573,10 +836,11 @@
             <tr><td><strong>Tổng diện tích xây dựng</strong></td><td>-</td><td><strong>155.0 m²</strong></td></tr>
           </table>
 
-          <div style="margin-top: 24px; padding: 16px; background: rgba(212, 163, 115, 0.1); border-left: 3px solid var(--accent); border-radius: 4px;">
-            <p style="font-size: 0.9rem; color: var(--accent-light);">
-              <strong>Dự toán ngân sách thi công trọn gói tại Perth, WA:</strong><br>
-              Ước tính từ <strong>$105,000 – $148,000 AUD</strong> (Bao gồm tháo dỡ, sân vườn trước/sau, bếp Calacatta, sàn gỗ sồi, studio làm việc và 2 phòng tắm).
+          <div style="margin-top: 24px; padding: 16px; background: rgba(229, 152, 155, 0.1); border-left: 3px solid var(--pink-accent); border-radius: 4px;">
+            <p style="font-size: 0.9rem; color: var(--pink-light);">
+              <strong>Tóm tắt lựa chọn cho gia chủ:</strong><br>
+              • <strong>Chọn Phương Án 1 ($105k-$148k AUD):</strong> Khi gia đình muốn biến ngôi nhà thành villa nghỉ dưỡng siêu sang, gia tăng giá trị định giá bất động sản tối đa tại Perth.<br>
+              • <strong>Chọn Phương Án 2 ($32k-$48k AUD):</strong> Khi muốn tiết kiệm chi phí tối đa, thi công nhanh chỉ trong 3-4 tuần, giữ trọn nét gạch mộc ấm áp và tận hưởng một vườn hoa thơ mộng ngập tràn sắc hương.
             </p>
           </div>
         </div>
@@ -600,40 +864,44 @@
       document.getElementById('imageModal').classList.remove('open');
     }
 
-    function switchTab(cat) {
-      const buttons = document.querySelectorAll('.tab-btn');
-      buttons.forEach(btn => btn.classList.remove('active'));
-      event.target.classList.add('active');
+    function selectOptionTab(tabName) {
+      // Buttons
+      document.getElementById('btn-tab-opt1').classList.remove('active');
+      document.getElementById('btn-tab-opt2').classList.remove('active');
+      document.getElementById('btn-tab-comp').classList.remove('active');
+      document.getElementById('btn-tab-plan').classList.remove('active');
 
-      const cards = document.querySelectorAll('.design-card');
-      const gallerySec = document.getElementById('gallery-section');
-      const compSec = document.getElementById('comparison-section');
-      const planSec = document.getElementById('floorplan-section');
+      // Banner boxes
+      const b1 = document.getElementById('banner-opt1');
+      const b2 = document.getElementById('banner-opt2');
+      b1.classList.remove('active-opt1');
+      b2.classList.remove('active-opt2');
 
-      if (cat === 'all') {
-        gallerySec.style.display = 'block';
-        compSec.style.display = 'block';
-        planSec.style.display = 'block';
-        cards.forEach(card => card.style.display = 'flex');
-      } else if (cat === 'landscape' || cat === 'interior') {
-        gallerySec.style.display = 'block';
-        compSec.style.display = 'none';
-        planSec.style.display = 'none';
-        cards.forEach(card => {
-          if (card.getAttribute('data-category') === cat) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-      } else if (cat === 'comparison') {
-        gallerySec.style.display = 'none';
-        compSec.style.display = 'block';
-        planSec.style.display = 'none';
-      } else if (cat === 'floorplan') {
-        gallerySec.style.display = 'none';
-        compSec.style.display = 'none';
-        planSec.style.display = 'block';
+      // Sections
+      const sOpt1 = document.getElementById('section-opt1');
+      const sOpt2 = document.getElementById('section-opt2');
+      const sComp = document.getElementById('section-comparison');
+      const sPlan = document.getElementById('section-floorplan');
+
+      sOpt1.style.display = 'none';
+      sOpt2.style.display = 'none';
+      sComp.style.display = 'none';
+      sPlan.style.display = 'none';
+
+      if (tabName === 'opt1') {
+        document.getElementById('btn-tab-opt1').classList.add('active');
+        b1.classList.add('active-opt1');
+        sOpt1.style.display = 'block';
+      } else if (tabName === 'opt2') {
+        document.getElementById('btn-tab-opt2').classList.add('active');
+        b2.classList.add('active-opt2');
+        sOpt2.style.display = 'block';
+      } else if (tabName === 'comparison') {
+        document.getElementById('btn-tab-comp').classList.add('active');
+        sComp.style.display = 'block';
+      } else if (tabName === 'floorplan') {
+        document.getElementById('btn-tab-plan').classList.add('active');
+        sPlan.style.display = 'block';
       }
     }
   </script>

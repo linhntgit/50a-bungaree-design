@@ -128,17 +128,76 @@ Dự án được định vị theo phong cách **Australian Coastal Contemporar
 6. **Giai đoạn 6: Nâng cấp 2 Phòng tắm (Main Bath & Ensuite):** $18,000 - $26,000
    * Gạch 600x1200mm, vách kính không khung, thiết bị sen vòi đồng chải, gương LED.
 
-👉 **Tổng ngân sách dự toán trọn gói (Full Turnkey Renovation):** **$105,000 - $148,000 AUD**
+👉 **Tổng ngân sách dự toán trọn gói Phương án 1 (Full Luxury Resort):** **$105,000 - $148,000 AUD**
 *(Mang lại giá trị gia tăng dự kiến cho bất động sản 50A Bungaree Rd từ $250,000 - $350,000 AUD trên thị trường Perth hiện nay).*
 
 ---
 
-### VI. DANH SÁCH ẢNH THIẾT KẾ 3D ĐÃ HOÀN THIỆN LƯU TẠI THƯ MỤC `New/`
+### VI. PHƯƠNG ÁN 2: THIẾT KẾ TIẾT KIỆM KINH TẾ & SÂN VƯỜN HOA ĐẶC TRƯNG (SMART BUDGET & COTTAGE FLORAL OASIS)
 
-1. `01_San_Vuon_Sau_Alfresco.jpg`: Phối cảnh Sân vườn sau, Pergola mái lật, Bếp nướng BBQ & Lounge ngoài trời.
-2. `02_San_Truoc_Mat_Tien_Carport.jpg`: Phối cảnh Mặt tiền, Carport ốp gỗ, Đá lát Travertine, Hàng rào cổng đen '50A'.
-3. `03_Phong_Khach_Phong_An.jpg`: Phối cảnh Không gian mở Living & Dining đón nắng vườn phong cách Japandi.
-4. `04_Nha_Bep_Dao_Bep.jpg`: Phối cảnh Bếp cao cấp với Đảo đá Calacatta thác nước và tủ gỗ sồi ấm cúng.
-5. `05_Studio_Lam_Viec_Giai_Tri.jpg`: Phối cảnh Cải tạo xưởng Workshop cũ thành Creative Studio & Media Lounge hiện đại.
-6. `06_Phong_Ngu_Master.jpg`: Phối cảnh Phòng ngủ Master sang trọng phong cách khách sạn Boutique & Tủ kính LED.
-7. `07_Phong_Tam_Modern_Spa.jpg`: Phối cảnh Phòng tắm Spa thư giãn với vách tắm kính, sen âm và gương vòm cảm ứng.
+* **Triết lý thiết kế:** **Giữ nguyên 100% kết cấu khung nhà & diện mạo tường gạch cổ điển (Preserved Brick Character)**, không can thiệp phá dỡ kết cấu chịu lực, không trát vữa tường ngoài tốn kém, không di dời đường ống nước kỹ thuật. Dành ngân sách đầu tư trọng tâm vào **cảnh quan vườn hoa rực rỡ phong cách Cottage Perth**, cải tạo **phòng tắm tinh tế tiết kiệm** và **làm mới bề mặt nội thất (Cosmetic Refresh)**.
+
+#### 1. Sân Sau Vườn Hoa Rực Rỡ & Góc Trà Chiều (Ảnh: `PA2_01_San_Vuon_Hoa_Sau.jpg`)
+* **Kiến trúc:** Giữ nguyên tường gạch mộc đỏ vàng của nhà; giàn hoa Pergola gỗ mộc đơn giản có dây leo hoa tử đằng (*Wisteria*) và hoa nhài thơm ngát.
+* **Cảnh quan hoa:** Bồn hoa viền gạch bo cong mềm mại với hoa oải hương tím (*English lavender*), hoa hồng bụi hồng và trắng, cẩm tú cầu, hoa cúc vàng, hoa sứ đại hoa trắng ngát hương, giàn hoa giấy (*Bougainvillea*) leo tường gạch.
+* **Không gian thư giãn:** Thảm cỏ xanh mướt (*Sir Walter Buffalo*) có lối đi lát đá dặm bước tự nhiên (*Stepping stones*), bộ bàn ghế sắt uốn nghệ thuật màu trắng kiểu bistro vintage để ngồi thưởng trà ngoài vườn.
+
+#### 2. Sân Trước Vườn Hoa & Mặt Tiền Giữ Nguyên Gạch Mộc (Ảnh: `PA2_02_San_Truoc_Vuon_Hoa.jpg`)
+* **Mặt tiền & Carport:** Giữ nguyên tường gạch mộc và ngói đất nung nguyên bản. Khung cửa sổ, cửa chính và khung nhà xe Carport được sơn lại màu xám than sang trọng (*Dulux Monument*). Nền xi măng và sân cũ được xịt rửa áp lực cao (*Pressure washing*) và quét sơn phủ chống bám bụi (*Concrete sealer*).
+* **Vườn hoa chào đón:** Vỉa hè và sân trước được lấp đầy bởi các khóm hoa rực rỡ đặc trưng Tây Úc: hoa móng vuốt kangaroo (*Kangaroo Paws* đỏ và vàng), hoa lavender tím, hoa cúc vạn thọ, hoa thanh cúc Agapanthus xanh biếc, hoa hồng leo quanh hàng rào sắt được sơn mới.
+
+#### 3. Phòng Tắm Cải Tạo Thông Minh Tiết Kiệm Chi Phí (Ảnh: `PA2_03_Phong_Tam_Kinh_Te.jpg`)
+* **Tiết kiệm tối đa chi phí thợ nước:** Giữ nguyên vị trí đường cấp thoát nước hiện hữu của vòi sen, bồn cầu và lavabo (tiết kiệm được 70% chi phí thợ ống nước - Plumbing trades).
+* **Gạch ốp tường:** Ốp gạch thẻ subway trắng bóng (White glossy subway tiles) phong cách hiện đại, thanh thoát và phản xạ ánh sáng tốt.
+* **Sàn:** Lát gạch porcelain chống trơn màu xám than 300x300mm hoặc 300x600mm.
+* **Thiết bị & Phụ kiện:** Tủ lavabo treo tường gỗ sồi vân sáng mặt chậu sứ trắng liền khối, vòi nước và sen tắm đứng màu đen mờ (*Matte Black*), vách kính trượt nửa khung (*Semi-frameless black sliding shower screen*), gương tròn treo tường có đèn LED hắt viền halo lung linh.
+
+#### 4. Làm Mới Nội Thất Bếp & Phòng Khách Tiết Kiệm (Ảnh: `PA2_04_Noi_That_Kinh_Te.jpg`)
+* **Tủ bếp:** Giữ nguyên thùng tủ cũ, sơn phủ bề mặt cánh tủ chuyên dụng (*Dulux Renovation Range*) tông màu phối 2 lớp: tủ trên trắng ấm, tủ dưới xanh xám thảo mộc (*Muted Sage Green*), thay toàn bộ tay nắm kim loại đen thanh mảnh.
+* **Mặt bếp & Ốp tường:** Thay mặt bàn bếp bằng đá thạch anh nhân tạo tầm trung hoặc laminate chống xước vân đá; ốp tường bếp bằng gạch gốm kit-kat trắng bóng.
+* **Phòng khách:** Sơn mới toàn bộ tường nhà màu trắng sáng (*Dulux Natural White*), giữ sàn gỗ hiện có và đánh bóng làm sạch, bố trí bàn ăn gỗ mộc Scandinavian và sofa nỉ xám kem ấm cúng.
+
+#### 5. Bảng Dự Toán Ngân Sách Phương Án 2 (Chỉ từ $32,000 – $48,000 AUD)
+| Hạng mục cải tạo Phương án 2 | Chi phí ước tính (AUD) | Ghi chú & Giải pháp tiết kiệm |
+| :--- | :--- | :--- |
+| **Sân vườn hoa trước & sau** | $9,000 – $14,000 | Cây hoa bụi, cỏ Buffalo, viền gạch, pergola gỗ, bàn ghế bistro |
+| **Sơn sửa ngoại thất & Carport** | $4,000 – $6,000 | Giữ gạch mộc, sơn khung nhôm cửa, sơn carport màu Monument |
+| **Cải tạo Phòng tắm chính** | $6,500 – $9,500 | Giữ vị trí ống nước, gạch thẻ subway, vách kính, tủ chậu gỗ, vòi đen |
+| **Làm mới Bếp (Sơn cánh, đá mới, ốp)** | $5,500 – $8,500 | Sơn tủ bếp Dulux Renovation, mặt đá thạch anh tầm trung, vòi mới |
+| **Sơn tường trong nhà & Rèm cửa** | $4,500 – $6,500 | Sơn trắng toàn bộ tường trong nhà, rèm voan 2 lớp hiện đại |
+| **Dọn dẹp & Phụ kiện decor** | $2,500 – $3,500 | Đèn chiếu sáng LED, thảm sàn, tranh treo tường, cây cảnh |
+| **TỔNG DỰ TOÁN PHƯƠNG ÁN 2:** | **$32,000 – $48,000 AUD** | **Tiết kiệm ~65% so với Phương án 1 ($105k-$148k)** |
+
+---
+
+### VII. SO SÁNH TRỰC DIỆN GIỮA HAI PHƯƠNG ÁN (OPTION 1 VS OPTION 2)
+
+| Tiêu chí | Phương Án 1: Full Luxury Resort | Phương Án 2: Smart Budget & Floral Cottage |
+| :--- | :--- | :--- |
+| **Ngân sách đầu tư** | $105,000 – $148,000 AUD | **$32,000 – $48,000 AUD (Rẻ hơn ~65%)** |
+| **Mặt ngoài ngôi nhà** | Trát bả vữa trắng đá vôi, ốp lam gỗ cao cấp | **Giữ nguyên 100% tường gạch mộc cổ điển, sơn viền cửa** |
+| **Sân vườn** | Sàn composite, mái nhôm xoay louvre, bếp BBQ bê tông | **Vườn hoa Cottage rực rỡ (Lavender, hồng, cúc), cỏ xanh, giàn hoa** |
+| **Phòng tắm** | Gạch travertine 600x1200mm, sen âm tường đồng chải cao cấp | **Gạch thẻ subway trắng, giữ nguyên ống nước, vòi đen mờ, gương LED** |
+| **Nhà bếp** | Thay mới toàn bộ, đảo Calacatta waterfall 2 bên | **Giữ khung tủ cũ, sơn màu Sage Green/trắng, thay mặt đá & tay nắm** |
+| **Thời gian thi công** | 8 – 12 tuần | **3 – 5 tuần (rất nhanh gọn, ít xáo trộn sinh hoạt)** |
+| **Phong cách phù hợp** | Biệt thự nghỉ dưỡng sang trọng, gia tăng tối đa giá trị bán | Không gian ấm cúng, ngập tràn sắc hoa, tiết kiệm chi phí tối đa |
+
+---
+
+### VIII. DANH SÁCH ẢNH THIẾT KẾ ĐÃ HOÀN THIỆN LƯU TẠI THƯ MỤC `New/`
+
+**Nhóm Phương án 1 (Full Luxury Resort):**
+1. `01_San_Vuon_Sau_Alfresco.jpg`: Sân vườn sau, Pergola mái lật, Bếp BBQ ngoài trời.
+2. `02_San_Truoc_Mat_Tien_Carport.jpg`: Mặt tiền trắng đá vôi, Carport ốp gỗ, Đá lát Travertine.
+3. `03_Phong_Khach_Phong_An.jpg`: Không gian mở Living & Dining Japandi, vách lam gỗ LED.
+4. `04_Nha_Bep_Dao_Bep.jpg`: Bếp cao cấp với Đảo đá Calacatta thác nước.
+5. `05_Studio_Lam_Viec_Giai_Tri.jpg`: Cải tạo Workshop cũ thành Studio làm việc & Lounge.
+6. `06_Phong_Ngu_Master.jpg`: Phòng ngủ Master Boutique Hotel & Tủ áo kính LED.
+7. `07_Phong_Tam_Modern_Spa.jpg`: Phòng tắm Spa với vách tắm kính, sen âm đồng chải.
+
+**Nhóm Phương án 2 (Smart Budget & Floral Cottage):**
+8. `PA2_01_San_Vuon_Hoa_Sau.jpg`: Sân sau vườn hoa rực rỡ, giàn hoa tử đằng, góc trà chiều vintage.
+9. `PA2_02_San_Truoc_Vuon_Hoa.jpg`: Mặt tiền giữ nguyên gạch mộc cổ điển, sân trước thảm hoa kangaroo paw & lavender.
+10. `PA2_03_Phong_Tam_Kinh_Te.jpg`: Phòng tắm gạch subway trắng sáng, giữ ống nước, vách kính & gương tròn LED.
+11. `PA2_04_Noi_That_Kinh_Te.jpg`: Phòng khách & bếp làm mới tiết kiệm, tủ sơn màu sage green & trắng.
+
