@@ -1,124 +1,169 @@
-# HỒ SƠ THIẾT KẾ CẢI TẠO KIẾN TRÚC & NỘI THẤT CHUẨN XÁC 100%
-## DỰ ÁN: 50A BUNGAREE ROAD, WILSON, WA 6107, AUSTRALIA
-### CĂN CỨ PHÁP LÝ & HỒ SƠ KỸ THUẬT:
-1. **Bản đồ trắc địa địa chính (Landgate Cadastral Diagram 91274 - `Map.pdf`)**
-2. **Ảnh chụp vệ tinh định vị khu đất & hướng mái (`Screenshot 2026-11-05 104637.png`)**
-3. **Bản vẽ mặt bằng kiến trúc chi tiết từng phòng (`floorplan.jpg` / `image (23).jpg`)**
-4. **Hệ thống ảnh chụp hiện trạng thực tế từ trong ra ngoài (`image.jpg` đến `image (22).jpg`)**
+# HỒ SƠ THIẾT KẾ KIẾN TRÚC CẢNH QUAN & NỘI THẤT TỔNG THỂ
+**DỰ ÁN: CẢI TẠO KHÔNG XÂM LẤN (NON-INVASIVE RENOVATION) – 50A BUNGAREE ROAD, WILSON WA 6107**
 
 ---
 
-### I. BÁO CÁO RÀ SOÁT ĐỐI CHIẾU TRẮC ĐỊA & KÍCH THƯỚC THỰC TẾ (CADASTRAL AUDIT)
+## PHẦN 1: PHÂN TÍCH TRẮC ĐỊA, QUY HOẠCH & CƠ CẤU DIỆN TÍCH (SURVEY & SPATIAL AUDIT)
 
-#### 1. Thông Số Ranh Giới Thửa Đất (Theo Landgate Diagram 91274 - `Map.pdf`):
-* **Tên pháp lý thửa đất:** Part Lot 5 of Canning Location 1, Diagram 23011, Certificate of Title Vol 1368 Folio 088. Thửa đất số: **Lot 1** (50A Bungaree Road).
-* **Cơ quan quản lý:** City of Canning, Locality: Wilson, Western Australia.
-* **Tổng diện tích đất (Total Land Area):** **418 m²** (không phải lô đất biệt thự lớn 800 - 1000m² như một số ảnh render AI thường tự phóng đại).
-* **Tọa độ & Kích thước các cạnh ranh giới:**
-  * **Mặt tiền tiếp giáp Bungaree Road (Tây Nam):** **16.20 mét** (Góc phương vị $89^\circ 53' 20''$). Đây là lối vào cổng chính và nhà xe Carport.
-  * **Ranh giới cạnh phải (Đông Nam - giáp Lot 296):** **28.55 mét** (Đường thẳng tắp từ mặt đường Bungaree Rd chạy thẳng về góc sau cùng). Dọc theo cạnh này là lối đi hông nhà rộng khoảng 1.2m - 1.5m có lát bê tông và rào tôn Colorbond giáp nhà hàng xóm.
-  * **Ranh giới cạnh sau (Đông Bắc):** **12.21 mét** (Góc phương vị $90^\circ 1' 32''$) + đoạn góc vát 0.05m. Đây là bức tường rào/tường gạch phía sau sân sau Alfresco.
-  * **Ranh giới cạnh trái (Tây Bắc - giáp phần còn lại của Lot 5 / 50 Bungaree Rd):** Gồm 3 đoạn gấp khúc hình bậc thang:
-    * Đoạn sau cùng: **8.39 mét** (Góc phương vị $143^\circ 7' 54''$)
-    * Đoạn gấp vào trong: **6.03 mét** (Góc phương vị $143^\circ 32' 42''$ - điểm đánh dấu "Concrete nail in path")
-    * Đoạn chạy ra đường Bungaree Rd: **15.45 mét** (Góc phương vị $89^\circ 9' 25''$)
+Hồ sơ thiết kế được lập dựa trên sự khớp nối chính xác 100% giữa dữ liệu Trắc địa Pháp lý (Landgate Diagram 91274), Bản vẽ Kiến trúc hiện trạng (Floor Plan) và Không ảnh Vệ tinh thực tế tại khu vực hội đồng địa phương **City of Canning, Western Australia**.
 
-#### 2. Phân Bổ Diện Tích Xây Dựng & Cảnh Quan Thực Tế (Khớp 100%):
-$$\text{Tổng diện tích đất: } 418.0\text{ m}^2$$
-$$\text{Diện tích xây dựng nhà (Inside): } 119.0\text{ m}^2$$
-$$\text{Diện tích nhà xe đôi (Carport): } 36.0\text{ m}^2$$
-$$\text{Tổng diện tích có mái che (Footprint): } \mathbf{155.0\text{ m}^2} \quad (\approx 37\% \text{ mật độ xây dựng})$$
-$$\text{Tổng diện tích sân vườn & lối đi ngoài trời: } 418.0 - 155.0 = \mathbf{263.0\text{ m}^2}$$
+```
+                      CẠNH SAU (ĐÔNG BẮC): 12.21m (+0.05m vát)
+                      (89° 01' 32") - Giáp ranh sau
+                    +---------------------------------------+
+                   /|                                       |
+     Đoạn 3: 8.39m/ |         SÂN SAU ALFRESCO              |
+    (143° 07' 54")  |       (~4.0m x 6.0m Lát đá)           |
+                 /  +---------------+-----------+-----------+
+  Đoạn 2: 6.03m /   | MASTER BED    | LAUNDRY & | KITCHEN   |
+ (143° 32' 42")/    | 3.2m x 4.1m   | WC 3.2x2.0| 4.2mx3.1m |
+ [Cọc bê tông]/     | (+Ensuite)    +-----------+           |
+             /      +---------------+ BATHROOM  |           | 28.55m
+            +-------+---------------+ 3.2m x1.8m|           | (89° 53' 20")
+            |       |               +-----------+-----------+ CẠNH PHẢI
+            | WORK- |   BEDROOM 2   |   ENTRY   |           | (ĐÔNG NAM)
+            | SHOP  |  4.3m x 3.3m  |  (Kệ 'S') |  LIVING / | Giáp Lot 296
+   15.45m   | 3.0m  +---------------+-----------+  DINING   | (Lối đi hông
+(89° 09' 25"| x6.3m |   BEDROOM 3   |Mái hiên   | 6.9mx3.6m |  rộng ~1.3m)
+ CẠNH TRÁI  |       |  3.2m x 3.1m  |sảnh chính |           |
+ (TÂY BẮC)  +-------+---------------+-----------+-----------+
+ Giáp PT 5  |                                   |  CARPORT  |
+            |       SÂN VƯỜN TRƯỚC TÂY NAM      |   ĐÔI     |
+            |        (Bản địa hóa Perth)        | 5.9mx6.1m |
+            +-----------------------------------+-----------+
+                 MẶT TIỀN BUNGAREE ROAD (TÂY NAM): 16.20m
+                             (89° 53' 20")
+```
 
-* **Phân bổ $263\text{ m}^2$ không gian ngoài trời:**
-  * **Sân trước & Sân đậu xe (Front Courtyard & Driveway):** ~120 - 140 m² (rộng 16.2m theo mặt đường, lùi sâu ~8 - 9m). Bao gồm đường dốc bê tông từ đường vào, khoảng sân lát gạch trước nhà và bồn cây cảnh bên trái.
-  * **Lối đi hông phải (Side walkway):** ~20 m² (dài ~15m x rộng ~1.3m kết nối từ sân trước ra cổng ngách sân sau).
-  * **Lối đi hông trái quanh phòng Workshop:** ~25 m².
-  * **Sân vườn sau (Backyard Alfresco Courtyard):** **~75 - 85 m²** (khu vực lát gạch và cỏ phía sau nhà rộng khoảng 6m x sâu 4m đến 6m, kẹp giữa tường sau nhà và tường gạch ranh giới cao).
+### 1.1. Bảng Cân Bằng Đất Đai & Xây Dựng (Site Coverage & Open Space Matrix)
+Theo quy chuẩn **R-Codes (State Planning Policy 7.3)** của bang Tây Úc áp dụng cho khu vực Wilson, tỷ lệ không gian mở (Open Space) là yếu tố cốt lõi để đảm bảo thông gió và thẩm thấu nước mưa tại chỗ.
 
----
+| Hạng mục (Category) | Kích thước / Thông số kỹ thuật | Diện tích ($m^2$) | Tỷ lệ (%) | Ghi chú Pháp lý & Hiện trạng |
+| :--- | :--- | :---: | :---: | :--- |
+| **1. Tổng diện tích đất (Total Site Area)** | Theo Landgate Diagram 91274 (Lot 1) | **418.00** | **100.0%** | Chuẩn sổ đỏ Vol 1368 Folio 088 |
+| **2. Diện tích Nội thất (Internal Living)** | Khối nhà gạch chữ L hiện hữu | **119.00** | **28.47%** | Giữ nguyên 100% tường bao & tường ngăn |
+| **3. Nhà để xe đôi (Double Carport)** | $5.9\text{m} \times 6.1\text{m}$ (Hệ cột gạch, mái ngói) | **36.00** | **8.61%** | Không xây tường bao, giữ thông thoáng |
+| **4. Tổng diện tích xây dựng (Footprint)** | Nội thất ($119\text{m}^2$) + Carport ($36\text{m}^2$) | **155.00** | **37.08%** | Mật độ xây dựng cực kỳ lý tưởng (< 50%) |
+| **5. Tổng diện tích Sân vườn & Lối đi** | $418.0\text{m}^2 - 155.0\text{m}^2$ | **263.00** | **62.92%** | Đạt vượt chuẩn Open Space của R-Codes |
 
-### II. BẢNG ĐỐI CHIẾU CHI TIẾT TỪNG PHÒNG NỘI THẤT (THEO `floorplan.jpg`)
-
-| Mã phòng | Tên phòng | Kích thước | Diện tích | Hướng tiếp xúc thực tế & Tầm nhìn (View) thực tế | Sai lệch thường gặp cần loại bỏ |
-| :---: | :--- | :---: | :---: | :--- | :--- |
-| **01** | **Living / Dining** | **6.9m x 3.6m** | **24.8 m²** | **Không gian thuôn dài, chiều rộng hẹp đúng 3.6 mét**. Tường Nam có cửa sổ nhìn ra sân trước/carport. Tường Đông giáp Carport/lối hông. Tường Tây có cửa trượt lùa dẫn sang sảnh Entry. Tường Bắc mở thông vào Bếp. | Không được vẽ như đại sảnh rộng 8-10m. Không có view biển hay hồ bơi. Chiều ngang phải đúng 3.6m. |
-| **02** | **Kitchen** | **4.2m x 3.1m** | **13.0 m²** | Tường Bắc (sau nhà) chứa tủ lạnh, lò nướng, bếp nấu. **Tường Đông có cửa sổ bồn rửa nhìn ra lối đi hông hẹp 1.3m giáp hàng rào tôn**. Đảo bếp nhìn về phòng ăn. | Ngoài cửa sổ bếp là hàng rào tôn/gạch hông nhà, tuyệt đối không vẽ vườn cây mênh mông hay biển. |
-| **03** | **Workshop (Xưởng)** | **3.0m x 6.3m** | **18.9 m²** | Gian nhà phụ hẹp dài (tỷ lệ 1:2.1). Cửa ra vào mở ra khoảng sân sau lát gạch. Cửa sổ phía trước nhìn ra sân trước. Tường gạch mộc chịu lực. | Không vẽ phòng vuông. Phải giữ tỷ lệ dài 6.3m x rộng 3.0m. |
-| **04** | **Master Bedroom** | **3.2m x 4.1m** | **13.1 m²** | Nằm ở góc sau cùng bên trái nhà. Cửa sổ nhìn ra khoảng sân sau hẹp kẹp giữa tường rào. Có phòng tắm Ensuite (1.8x1.8m) khép kín. | Không có vách kính panorama nhìn ra biển/rừng. View thực tế là tường rào sân sau. |
-| **05** | **Bedroom 2** | **4.3m x 3.3m** | **14.2 m²** | Nằm ở mặt trước bên trái, kẹp giữa phòng Workshop và Bedroom 3. Cửa sổ nhìn ra sân trước. | Bố trí giường đôi, tủ âm tường, bàn học. |
-| **06** | **Bedroom 3** | **3.2m x 3.1m** | **9.9 m²** | Nằm ở mặt trước, kẹp giữa Bedroom 2 và sảnh Entry. Cửa sổ nhìn ra khoảng sân trước dưới mái hiên. | Bố trí phòng ngủ trẻ em / phòng khách nghỉ ngơi. |
-| **07** | **Main Bathroom** | **3.2m x 1.8m** | **5.8 m²** | **Rộng hẹp 1.8m, dài 3.2m**. Lavabo bên trái, bồn cầu ở giữa, buồng tắm vách kính góc trong bên phải. Cửa sổ thông gió nhỏ trên cao bên trái. | Giữ đúng bố cục đường ống cấp thoát nước theo chiều dài 3.2m x 1.8m. |
-| **08** | **Laundry + WC** | **3.2m x 2.0m** | **6.4 m²** | Phòng giặt có cửa đi ra sân sau và 1 phòng vệ sinh riêng (Separate WC) + tủ để khăn (Linen). | Giữ nguyên cửa đi ra sân sau để phơi đồ. |
-| **09** | **Carport (Nhà xe)** | **5.9m x 6.1m** | **36.0 m²** | Nhà xe đôi 2 ô tô đỗ song song. Mái ngói nối liền hiên nhà trên hệ cột gạch bên trái lối vào. | Giữ nguyên kết cấu cột và mái, làm mới trần lam gỗ và đèn chiếu sáng. |
-
----
-
-### III. GIẢI PHÁP THIẾT KẾ PHƯƠNG ÁN 1: RESORT CAO CẤP (CHUẨN 100% CẤU TRÚC)
-**Ngân sách: $105,000 – $148,000 AUD | Thời gian: 8 – 12 tuần**
-
-1. **Sân vườn sau & Alfresco chuẩn hiện trạng (`PA1_01_San_Sau_Alfresco_Chuan.jpg`):**
-   * Bám sát 100% không gian sân sau thực tế trong ảnh `image (1).jpg` và `image (22).jpg`:
-   * Khuôn viên sân chữ nhật kích thước vừa vặn **dài 6.0m x rộng 4.0m**.
-   * **Bên trái:** Tường gạch nhà với cửa sổ, cửa phòng giặt và hộp lam gỗ đóng thẩm mỹ giấu cụm máy lạnh.
-   * **Bên phải:** Bức tường gạch ranh giới cao được ốp quầy bếp BBQ ngoài trời bằng bê tông mài, tích hợp bếp nướng gas âm inox và tủ lạnh trữ đồ uống quầy bar.
-   * **Cuối sân:** Hàng rào Colorbond phủ giàn dây leo xanh mướt tự nhiên.
-   * **Mái che:** Giàn Pergola nhôm đen nhám có hệ lam xoay tự động che nắng mưa vừa vặn diện tích 4m x 6m.
-   * **Nền sân:** Sàn gỗ nhựa composite cao cấp *Spotted Gum* chống trơn trượt thay thế thảm cỏ nhân tạo cũ.
-
-2. **Mặt tiền, Sân trước & Carport chuẩn hiện trạng (`PA1_02_San_Truoc_Carport_Chuan.jpg`):**
-   * Bám sát 100% góc chụp thực tế từ đường vào trong ảnh `image (14).jpg`:
-   * **Bên trái:** Nhà để xe Carport đôi 5.9m x 6.1m trên hệ cột hiện hữu được trát bả màu trắng đá vôi (*Off-white limestone render*), trần ốp lam gỗ tự nhiên âm đèn downlight LED chiếu rọi xe hơi.
-   * **Chính diện:** Tường nhà trát vữa phẳng trắng đá vôi nhẹ, điểm xuyết thanh lam gỗ quanh 2 ô cửa sổ (Bedroom 3 & Living). Cục nóng điều hòa trước nhà được che bằng hộp lam gỗ cùng tông.
-   * **Bên phải:** Lối đi bộ lát đá Travertine phẳng mịn dẫn thẳng về cổng ngách vào sân sau.
-   * **Nền sân:** Thay toàn bộ gạch đỏ hoa văn cũ bằng đá Travertine kem mài mờ khổ lớn 600x400mm.
-   * **Tiểu cảnh bên trái:** Bồn hoa uốn cong trồng cây ô liu cổ thụ, sứ đại trắng và rải sỏi trắng sạch sẽ.
-
-3. **Phòng khách & Phòng ăn chuẩn kích thước 6.9m x 3.6m:**
-   * Tôn trọng đúng bề ngang 3.6m: Kê ghế sofa góc 3 chỗ bọc vải bouclé màu kem sát tường, bàn trà tròn nhỏ thanh mảnh, kệ tivi treo tường ốp lam gỗ sồi dọc hắt sáng LED.
-   * Khu vực bàn ăn oval gỗ sồi 6 ghế đặt gần cửa sổ trước đón sáng êm dịu.
-   * Giữ nguyên vị trí cửa lùa bên hông sang sảnh Entry.
-
-4. **Nhà bếp chuẩn kích thước 4.2m x 3.1m:**
-   * Tủ bếp kịch trần màu trắng ngà Casper White kết hợp gỗ sồi châu Âu.
-   * Bồn rửa đôi đặt đúng vị trí dưới cửa sổ bên hông nhìn ra hành lang hông nhà.
-   * Đảo bếp dài 2.2m x rộng 0.9m mặt đá thạch anh Calacatta vân mây ốp thác nước (*Waterfall edge*), chừa lối đi 1.0m cực kỳ thông thoáng.
-
-5. **Cải tạo xưởng 3.0m x 6.3m thành Creative Studio:**
-   * Giữ nguyên chiều dài 6.3m và rộng 3.0m: Tường gạch mộc sơn trắng phong cách Loft, trần ốp lam gỗ tiêu âm, bàn làm việc đôi chạy dọc tường có đèn LED, ghế bành da đọc sách ở góc và cửa kính mở ra sân sau.
-
-6. **Phòng tắm chính chuẩn 3.2m x 1.8m:**
-   * Tối ưu đúng chiều ngang 1.8m: Tủ lavabo treo tường gỗ sồi 900mm bên trái kèm gương vòm LED, bồn cầu âm tường ở giữa, buồng tắm kính đứng không khung ở góc trong bên phải, gạch travertine 600x1200mm.
+### 1.2. Phân Tích Hình Học Ranh Giới & Vi Khí Hậu (Micro-Climate Analysis)
+*   **Mặt tiền hướng Tây Nam (16.20m giáp Bungaree Road):** Đón gió biển mát mẻ vào buổi chiều mùa hè (gió *Fremantle Doctor* đặc trưng của Perth), nhưng cũng chịu nắng xế gắt từ hướng Tây vào mùa hạ (tháng 12 – tháng 2). Do đó, khu vực sân trước bên trái (trước Bedroom 2, Bedroom 3 và Workshop) cần hệ cây tán cao vừa phải để lọc bức xạ nhiệt.
+*   **Cạnh trái hướng Tây Bắc (Gấp khúc 3 đoạn: 15.45m – 6.03m – 8.39m):** Ranh giới chia lô giáp phần đất còn lại của PT 5. Điểm gãy góc tại vị trí đinh bê tông (*Concrete nail in path*) tạo ra khoảng lùi hình phễu cho Workshop và Master Bedroom.
+*   **Cạnh sau hướng Đông Bắc (12.21m + đoạn vát 0.05m):** Đón nắng sớm mùa đông rất tốt. Khu vực sân sau Alfresco ($\sim 4.0\text{m} \times 6.0\text{m}$) nằm lọt lòng giữa khối nhà chữ L và hàng rào 12.21m này, tạo thành một "ốc đảo" kín gió, ấm áp vào mùa đông và mát mẻ vào chiều hè.
+*   **Cạnh phải hướng Đông Nam (28.55m thẳng tắp giáp Lot 296):** Hành lang hông nhà chạy dọc từ Carport ra sân sau rộng đúng **1.30m** (kẹp giữa tường ngoài phòng Living/Kitchen và hàng rào tôn Colorbond). Khu vực này râm mát quanh năm, rải sỏi trắng và trồng trúc mảnh tạo thị giác xanh nhìn từ bồn rửa bếp.
 
 ---
 
-### IV. GIẢI PHÁP THIẾT KẾ PHƯƠNG ÁN 2: TIẾT KIỆM KINH TẾ & VƯỜN HOA ĐẶC TRƯNG (SMART BUDGET & FLORAL COTTAGE)
-**Ngân sách: $32,000 – $48,000 AUD (Tiết kiệm ~65%) | Thời gian: 3 – 5 tuần**
+## PHẦN 2: TUYÊN NGÔN BẢO TỒN CẤU TRÚC (100% STRUCTURAL PRESERVATION MANDATE)
 
-* **Triết lý:** Giữ nguyên 100% khung nhà, tường gạch mộc cổ điển và vị trí kỹ thuật. Dành ngân sách làm bừng sáng ngôi nhà bằng thảm hoa rực rỡ phong cách Cottage Tây Úc, cải tạo phòng tắm thông minh và sơn mới bề mặt.
+Thiết kế tuân thủ nguyên tắc tối thượng: **KHÔNG ĐẬP PHÁ – KHÔNG THAY ĐỔI KẾT CẤU (ZERO STRUCTURAL DEMOLITION)**.
 
-1. **Sân sau vườn hoa rực rỡ & Góc trà chiều (`PA2_01_San_Vuon_Hoa_Sau.jpg`):**
-   * Giữ nguyên tường gạch mộc đỏ vàng của nhà; bồn hoa uốn lượn viền gạch ngập tràn hoa oải hương tím (*English lavender*), hoa hồng leo trên giàn gỗ, cẩm tú cầu, hoa cúc và sứ đại trắng; thảm cỏ xanh mướt có lối đi lát đá dặm bước (*Stepping stones*) dẫn ra bộ bàn ghế sắt uốn vintage thưởng trà chiều.
-
-2. **Mặt tiền gạch mộc & Vườn hoa sân trước (`PA2_02_San_Truoc_Vuon_Hoa.jpg`):**
-   * Giữ nguyên tường gạch mộc và ngói đất nung nguyên bản. Sơn mới khung cửa sổ, cửa chính và khung carport màu xám than sang trọng (*Dulux Monument*). Nền xi măng và sân cũ được xịt rửa áp lực cao và quét sơn phủ chống bám bụi. Sân trước nở rộ thảm hoa bản địa Tây Úc (*Kangaroo Paws* đỏ vàng, lavender, cúc vạn thọ) và hoa hồng leo cổng rào.
-
-3. **Phòng tắm tinh tế & Tiết kiệm chi phí (`PA2_03_Phong_Tam_Kinh_Te.jpg`):**
-   * Giữ nguyên 100% vị trí đường cấp thoát nước của phòng tắm 3.2m x 1.8m (tiết kiệm 70% chi phí thợ ống nước). Tường ốp gạch thẻ subway trắng bóng tinh khôi, sàn gạch xám chống trơn, tủ lavabo gỗ sồi mặt chậu sứ liền khối, vòi và sen tắm đen mờ thời thượng, vách kính trượt và gương tròn viền LED halo.
-
-4. **Làm mới nội thất bếp & Living tiết kiệm (`PA2_04_Noi_That_Kinh_Te.jpg`):**
-   * Giữ nguyên thùng tủ bếp cũ 4.2x3.1m, sơn phủ cánh tủ bằng sơn chuyên dụng *Dulux Renovation Range* màu trắng ấm phối xanh xám thảo mộc (*Muted Sage Green*), thay tay nắm kim loại đen thanh mảnh, thay mặt đá thạch anh tầm trung; sơn trắng sáng toàn bộ tường nhà và trang trí bình hoa rực rỡ.
+1.  **Bảo toàn hệ tường gạch kép (Double Brick) và gạch đơn (Single Brick):** Toàn bộ các bức tường bao ngoài và tường ngăn nội thất (đặc biệt là bức tường ngăn giữa Workshop $3.0\text{m} \times 6.3\text{m}$ với Bedroom 2, và bức tường ngăn giữa Living $6.9\text{m} \times 3.6\text{m}$ với sảnh Entry) đều là hệ tường chịu lực đỡ hệ vì kèo gỗ mái ngói đỏ chữ L. Việc giữ nguyên 100% giúp gia chủ **không phải xin giấy phép Building Permit (BA1/BA2)** phức tạp tại City of Canning, tiết kiệm hàng chục ngàn AUD chi phí dầm thép chịu lực (Lintel/Steel Beam) và tránh rủi ro nứt kết cấu mái.
+2.  **Giữ nguyên 100% khẩu độ cửa (Window & Door Openings):** Toàn bộ vị trí cửa sổ, cửa đi, cửa lùa hiện hữu được giữ nguyên kích thước lỗ mở. Giải pháp nâng cấp can thiệp vào việc sơn phủ khung nhôm (hoặc thay kính Low-E trong khung cũ), thay cánh cửa gỗ nội thất, và xử lý rèm cửa thông minh để tăng chiều cao thị giác.
+3.  **Tối ưu hóa bằng Nội thất May đo (Bespoke Joinery) & Kỹ thuật Thị giác:** Sử dụng tỷ lệ đồ rời thanh mảnh, hệ tủ âm tường chuẩn từng milimet, bảng màu sáng có độ phản xạ ánh sáng cao (High LRV - Light Reflectance Value) kết hợp ánh sáng kiến trúc đa lớp để hóa giải sự hẹp dài của các không gian như Living ($3.6\text{m}$), Workshop ($3.0\text{m}$) và Main Bathroom ($1.8\text{m}$).
 
 ---
 
-### V. BẢNG SO SÁNH TRỰC DIỆN HAI PHƯƠNG ÁN
+## PHẦN 3: THIẾT KẾ CẢNH QUAN SÂN VƯỜN (LANDSCAPE ARCHITECTURE)
 
-| Tiêu chí | 🌟 Phương Án 1 (Full Luxury Resort) | 🌸 Phương Án 2 (Smart Budget & Floral Cottage) |
-| :--- | :--- | :--- |
-| **Ngân sách đầu tư** | $105,000 – $148,000 AUD | **$32,000 – $48,000 AUD (Tiết kiệm ~65%)** |
-| **Mặt ngoài & Khung nhà** | Trát phẳng vữa trắng đá vôi, ốp lam gỗ cao cấp | **Giữ nguyên 100% tường gạch mộc cổ điển, sơn viền cửa xám than** |
-| **Sân vườn** | Sàn composite, mái nhôm xoay louvre, quầy BBQ bê tông | **Vườn hoa Cottage rực rỡ (Lavender, hồng, cúc), cỏ thật, góc trà** |
-| **Phòng tắm** | Gạch travertine 600x1200, sen âm tường đồng chải cao cấp | **Gạch subway trắng sáng, giữ nguyên ống nước, sen vòi đen, gương LED** |
-| **Nhà bếp** | Thay mới toàn bộ, đảo Calacatta waterfall | **Giữ khung tủ cũ, sơn màu Sage Green & trắng, thay mặt đá mới** |
-| **Thời gian thi công** | 8 – 12 tuần | **3 – 5 tuần (rất nhanh gọn, ít xáo trộn sinh hoạt)** |
-| **Mục tiêu ưu tiên** | Đẳng cấp nghỉ dưỡng, gia tăng giá trị định giá nhà tối đa | Không gian ngập tràn hoa lá thơ mộng, tiết kiệm chi phí tối đa |
+Với tổng diện tích đất trống lên tới **$263.0\text{m}^2$**, thiết kế cảnh quan được chia làm 3 phân khu chiến lược, áp dụng triệt để nguyên tắc **Waterwise (Tiết kiệm nước)** của Water Corporation WA, phù hợp với nền đất cát đặc trưng của vùng Wilson.
+
+### 3.1. Phân Khu 1: Sân Vườn Trước & Mặt Tiền 16.20m (Frontage, Entry & Double Carport)
+*   **Ý tưởng chủ đạo:** *"Australian Contemporary Native"* – Tôn vinh mái ngói đỏ truyền thống và tường gạch bằng các mảng bê tông mài lộ đá hiện đại kết hợp thực vật bản địa Tây Úc có cấu trúc lá bạc và xanh đậm.
+*   **Khu vực Nhà xe đôi (Double Carport $5.9\text{m} \times 6.1\text{m} = 36.0\text{m}^2$):**
+    *   *Sàn:* Đổ bê tông mài lộ đá tự nhiên (**Honed Aggregate Concrete**) dày 100mm, cốt thép lưới SL72, sử dụng cốt liệu đá granite xám muối tiêu kết hợp sỏi thạch anh vàng nhạt (tương đồng màu đất Perth). Cắt ron chống nứt (Saw-cut expansion joints) chia ô tỷ lệ $1.5\text{m} \times 1.5\text{m}$.
+    *   *Trần & Cột:* Giữ nguyên hệ cột gạch chịu lực của Carport, phủ sơn ngoại thất **Dulux Weathershield Matt màu *Domino* (Xám than đậm)**. Đóng trần tấm sợi xi măng **James Hardie Villaboard** phẳng phiu bên dưới hệ vì kèo Carport, sơn trắng, lắp 4 đèn Downlight LED chống nước IP65 ánh sáng trung tính 3000K.
+*   **Lối đi bộ vào Sảnh chính (Pedestrian Path to Entry):**
+    *   Tách biệt hoàn toàn với lối xe chạy. Sử dụng các tấm đan bê tông đúc sẵn kích thước lớn ($1200\text{mm} \times 600\text{mm} \times 50\text{mm}$) màu xám tro đặt lệch nhịp dẫn từ vỉa hè Bungaree Road xuyên qua vườn trước vào thẳng mái hiên sảnh chính.
+    *   Xen kẽ giữa các tấm đan là cỏ bản địa không cần cắt tỉa **Zoysia tenuifolia (No-Mow Grass)** hoặc rải đá dăm Basalt kích thước 14mm.
+*   **Thiết kế Thảm thực vật Mặt tiền:**
+    *   *Tầng cây bóng mát:* Trồng 02 cây **Agonis flexuosa ‘Afterdark’ (WA Peppermint)** hoặc **Eucalyptus victrix (Little Ghost Gum)** cách tường nhà tối thiểu 3.0m để chắn nắng Tây Nam cho cửa sổ Bedroom 2 và Bedroom 3.
+    *   *Tầng cây bụi:* Phối kết gồm **Grevillea ‘Winpara Gem’** (hoa đỏ đồng điệu mái ngói), **Westringia fruticosa ‘Grey Box’** (cắt tỉa hình cầu tạo hình khối kiến trúc), và **Leucophyta brownii (Cushion Bush)** màu bạc bắt sáng.
+    *   *Tầng phủ mặt đất:* **Anigozanthos (Kangaroo Paw – Hoa Chân Chuột Túi)** giống lùn *‘Bush Gem’* trồng dọc lối đi bộ; **Conostylis candicans (Cottonheads)** phủ kín chân tường dưới bệ cửa sổ phòng khách và phòng ngủ. Toàn bộ bồn cây được phủ lớp vỏ thông đen (Karri & Peat Mulch) dày 75mm để giữ ẩm mùa hè.
+
+### 3.2. Phân Khu 2: Sân Sau Nghỉ Dưỡng (Rear Alfresco Sanctuary $\sim 4.0\text{m} \times 6.0\text{m}$)
+*   **Xử lý mặt sàn (Paving Upgrade):** Toàn bộ diện tích lõi sân sau ($\sim 24\text{m}^2$ đến $30\text{m}^2$) được lát đá vôi tái cấu trúc đặc trưng Tây Úc: gạch lát **Freostone (Fremantle Stone) kích thước $400\text{mm} \times 400\text{mm} \times 40\text{mm}$ màu *Cream/Travertine***, cực kỳ mát chân dưới nắng mùa hè và chống trơn trượt (Slip Rating P5).
+*   **Hệ mái che độc lập (Freestanding Louvered Pergola):** Để **không tác động lực vào tường gạch và kết cấu mái ngói hiện hữu**, lắp đặt hệ Pergola nhôm sơn tĩnh điện màu đen mờ kích thước $3.6\text{m} \times 4.5\text{m}$ đứng độc lập trên 4 cột thép hộp $100\times 100\text{mm}$ chôn móng bê tông riêng biệt. Hệ lam nhôm xoay lật (Adjustable Louvers) đón nắng đông buổi sáng và che mưa mùa đông.
+*   **Bố trí công năng ngoài trời:**
+    *   *Dining & Lounge:* Bộ bàn ăn ngoài trời 6 ghế bằng gỗ Teak kết hợp khung nhôm đen dài 1.8m song song tường ranh sau 12.21m.
+    *   *BBQ & Outdoor Bar:* Áp sát đoạn tường gạch ngoài phòng Laundry, kết nối nhanh với Kitchen.
+    *   *Xử lý bức tường ranh giới 12.21m:* Lắp hệ thanh gỗ nhựa ngoài trời (**Ekodeck Screening Panels** màu *Spotted Gum*) cao 1.8m, kết hợp giàn leo **Star Jasmine (Nhài sao)** thơm ngát và hàng rào **Lilly Pilly**.
+    *   *Khu vực Phơi đồ ẩn:* Giàn phơi gập gắn tường (**Hills Folding Clothesline**) bố trí tại góc khuất sau phòng Workshop (gần ranh giới 8.39m), khuất tầm nhìn từ bàn tiệc Alfresco.
+
+### 3.3. Phân Khu 3: Hành Lang Hông Đông Nam (1.30m Side Access dọc 28.55m ranh giới)
+*   Hành lang rộng đúng **1.30m** chạy dọc tường ngoài của phòng Living và Kitchen giáp Lot 296.
+*   Trải vải địa kỹ thuật chống cỏ dại, rải sỏi sông (River Pebbles 20mm) kết hợp bước dạo đá Bluestone $800\times 400\text{mm}$.
+*   Đối diện **cửa sổ bồn rửa đôi của phòng Kitchen**, trồng hàng trúc cảnh thân mảnh **Bambusa textilis ‘Gracilis’ (Slender Weaver Bamboo)** trong chậu Composite hẹp dài sát hàng rào tôn. Khi đứng rửa bát, gia chủ nhìn thẳng ra rặng trúc xanh mát đung đưa dưới nắng thay vì nhìn vào hàng rào tôn cách đó 1.3m.
+
+---
+
+## PHẦN 4: THIẾT KẾ NỘI THẤT CHI TIẾT TỪNG KHÔNG GIAN
+
+**Phong cách chủ đạo:** *"Warm Contemporary Australian"* – Gỗ Sồi bản địa (Tasmanian Oak), đá thạch anh vân mây không Silica, bảng màu trung tính ấm (Warm Alabaster, Greige, Sage Green) mở rộng không gian thị giác mà không chạm đến một viên gạch kết cấu nào.
+
+### 4.1. Sảnh Đón (Entry Foyer) & Kệ Chữ 'S' Âm Tường
+*   **Kệ chữ 'S':** Giữ nguyên hốc tường chữ 'S', ốp vách hậu lam sóng gỗ sồi mảnh (Fluted Tasmanian Oak) tích hợp LED dây âm khe (3000K). Mặt bàn ốp đá thạch anh **Caesarstone Arabetto 20mm** làm nơi để chìa khóa, thư từ, túi xách (Drop-zone) và góc làm việc nhanh kèm đôn da bò gọn gàng.
+*   **Cửa lùa ngăn phòng khách:** Thay thế cánh cửa lùa trắng cũ bằng hệ cửa lùa gỗ sồi / nhôm đen lắp **kính sọc mờ (Fluted Glass)**. Giữ trọn vẹn ánh sáng tự nhiên lưu thông giữa sảnh và phòng khách khi đóng cửa giữ nhiệt điều hòa.
+
+### 4.2. Phòng Khách & Phòng Ăn (Living / Dining: $6.9\text{m} \times 3.6\text{m} = 24.84\text{m}^2$)
+*   **Hóa giải bề ngang hẹp 3.6m:**
+    *   *Tường Đông (giáp Carport):* Bức tường treo TV 65" Frame áp sát tường. Kệ Console treo tường (Floating Media Unit) bằng gỗ Tasmanian Oak dài $2.4\text{m}$, **chiều sâu siêu mỏng chỉ $300\text{mm}$**, cách sàn $250\text{mm}$ có đèn hắt gầm. Giúp mắt nhìn thấy trọn vẹn toàn bộ chiều rộng sàn nhà 3.6m.
+    *   *Tường Tây (giáp Entry):* Kê Sofa văng thẳng 3 chỗ dài $2.3\text{m}$, sâu $900\text{mm}$, chân kim loại mảnh, bọc vải Bouclé màu kem sáng.
+    *   *Lối đi thông thủy trung tâm:* Đạt tới **$2400\text{mm}$ (2.4m!)**, cực kỳ rộng rãi. Bàn trà tròn đôi Ø750mm đặt trung tâm.
+    *   *Khu vực Dining (tiếp giáp Kitchen):* Sử dụng **Banquette Seating (Ghế băng dài bọc nệm áp sát tường)** dài 1.8m sâu 500mm kết hợp **Bàn ăn Oval** $1.8\text{m} \times 0.9\text{m}$. Cạnh cong của bàn Oval tạo luồng giao thông hoàn hảo từ sảnh qua phòng ăn vào bếp mà không bị vấp cạnh.
+    *   *Cửa sổ tường Nam:* Lắp rèm voan lanh trắng (Sheer Linen) kịch trần phủ kín toàn bộ bề ngang 3.6m, tạo ảo giác vách kính thông tầng lớn.
+
+### 4.3. Không Gian Bếp (Kitchen: $4.2\text{m} \times 3.1\text{m} = 13.02\text{m}^2$)
+*   Giữ nguyên 100% vị trí đường ống cấp thoát nước và đường điện:
+    *   *Tường Bắc:* Tủ lạnh âm, lò nướng âm tủ, bếp nấu từ Induction và máy hút mùi âm tủ.
+    *   *Tường Đông:* Bồn rửa đôi âm đá (Double Undermount Sink) bằng thép Gunmetal/Brushed Brass dưới cửa sổ nhìn ra hàng trúc cảnh.
+    *   *Bàn đảo bếp (Kitchen Island):* Kích thước chuẩn $2.0\text{m} \times 0.9\text{m}$, mặt đá vát thác đổ (Waterfall Edge) dày 40mm bằng đá không chứa Silica **Caesarstone Mineral™ Calm White**. Mặt hướng ra phòng ăn ốp lam gỗ sồi bán nguyệt uốn cong hai đầu, thụt vào 300mm xếp gọn 3 ghế Bar.
+    *   *Kho Pantry:* Giữ nguyên khung tường, thay cánh cửa phẳng đồng màu hệ tủ, bên trong lắp hệ rổ kéo đa tầng **Blum Space Tower**.
+
+### 4.4. Phòng Xưởng Đa Năng (Workshop: $3.0\text{m} \times 6.3\text{m} = 18.90\text{m}^2$)
+*   **BẢO TỒN NGUYÊN VẸN TƯỜNG GẠCH CHỊU LỰC:** Tuyệt đối không phá dỡ bất kỳ bức tường nào của phòng xưởng.
+*   **Định vị:** **"The Ultimate Hybrid Studio & Clean Artisan Makerspace"**.
+    *   *Tường gạch:* Vệ sinh và quét vôi khoáng tự nhiên **Bauwerk Colour Limewash màu trắng ngà** trực tiếp lên bề mặt gạch mộc, giữ nguyên chất mộc nghệ thuật công nghiệp đồng thời làm bừng sáng căn phòng.
+    *   *Sàn:* Sơn Epoxy tự san phẳng màu xám sỏi (Flake Epoxy) bền bỉ chống dầu mỡ và trầy xước.
+    *   *Nửa trước (3.0m x 3.0m, cạnh cửa sổ trước):* Góc Creative Studio / Home Office với bàn làm việc dài 2.0m đón ánh sáng vườn trước, kệ sách âm tường sâu 350mm.
+    *   *Nửa sau (3.0m x 3.3m, cạnh cửa ra sân sau Alfresco):* Xưởng cơ khí / làm mộc thủ công sạch với bàn nguội chuyên nghiệp mặt gỗ cứng dày 40mm dài 2.4m, bảng lỗ Pegboard thép đen treo đồ nghề, tủ dụng cụ và quầy pha chế đồ uống (Dry Bar) phục vụ tiệc nướng Alfresco ngoài sân.
+
+### 4.5. Master Bedroom ($3.2\text{m} \times 4.1\text{m}$) + Ensuite & Các Phòng Ngủ
+*   **Master Bedroom:** Giường Queen ($1.53\text{m} \times 2.03\text{m}$), tủ đầu giường treo tường, vách ốp nệm vải Linen màu Sage Green dịu mát. Tủ quần áo cánh lùa kính màu trà phản chiếu ánh sáng sân sau.
+*   **Master Ensuite ($1.8\text{m} \times 1.8\text{m}$):** Ốp gạch Porcelain khổ lớn $600\times 600\text{mm}$ Travertine kịch trần. Vách kính tắm cường lực không khung (Frameless Glass) dày 10mm cố định bằng kẹp đồng xước. Tủ Vanity treo tường dài 750mm lộ sàn gạch.
+*   **Bedroom 2 ($4.3\text{m} \times 3.3\text{m} = 14.19\text{m}^2$):** Bố trí hệ tủ quần áo dài 2.4m dọc theo bức tường giáp Workshop – đóng vai trò như một lớp **tiêu âm cách âm tự nhiên tuyệt hảo** giữa xưởng và phòng ngủ mà không cần xây thêm vách ngăn!
+*   **Bedroom 3 ($3.2\text{m} \times 3.1\text{m}$):** Phòng ngủ phụ / phòng làm việc trẻ em thoáng đãng.
+
+### 4.6. Phòng Tắm Chính (Main Bathroom: $3.2\text{m} \times 1.8\text{m} = 5.76\text{m}^2$)
+*   Thiết bị bố trí dọc một bên tường: Tủ Vanity gỗ sồi treo tường dài 1.2m sâu 460mm -> Bồn cầu khối sát tường **Caroma Urbane II** ở giữa -> Buồng tắm đứng Walk-in Shower rộng $1.8\text{m} \times 1.0\text{m}$ chiếm trọn bề ngang ở đáy phòng với vách kính không khung và hốc âm tường để dầu gội. Lối đi thông thủy rộng tới 1.3m.
+
+### 4.7. Khu Giặt & WC Riêng (Laundry + Separate WC: $3.2\text{m} \times 2.0\text{m} = 6.40\text{m}^2$)
+*   Hệ tủ giặt mặt đá dài 2.0m tích hợp máy giặt và máy sấy cửa trước âm bàn. Cửa kính lấy sáng tự nhiên từ sân sau. WC riêng biệt giữ nguyên độc lập.
+
+---
+
+## PHẦN 5: DỰ TOÁN NGÂN SÁCH THỰC TẾ TẠI PERTH, WA (ESTIMATED BUDGET IN AUD)
+
+*Đơn giá tính bằng Đô la Úc (AUD), đã bao gồm thuế GST 10% và nhân công có chứng chỉ hành nghề (Licensed Tradies: Plumber, Electrician, Cabinet Maker, Landscaper) theo mặt bằng giá Perth năm 2024–2025.*
+
+| STT | Hạng mục Đầu tư (Scope of Works) | Chi tiết Công việc | Tiêu chuẩn (Standard Tier) | Cao cấp (Bespoke Luxury) |
+| :-: | :--- | :--- | :---: | :---: |
+| **1** | **Cảnh quan Sân trước & Carport đôi** | Bê tông mài Carport & lối đi; trần Carport + đèn LED; tưới tự động; thảm thực vật bản địa WA & Mulch. | $16,500 | $24,000 |
+| **2** | **Cảnh quan Sân sau Alfresco & Hông** | Lát đá Freostone ($\sim 28\text{m}^2$); Pergola nhôm lam xoay độc lập; ốp gỗ nhựa hàng rào 12.21m; rải sỏi & trúc cảnh. | $18,000 | $28,500 |
+| **3** | **Cải tạo Toàn diện Phòng Bếp & Pantry** | Hệ tủ bếp chữ L kịch trần + Đảo bếp Waterfall vân gỗ sồi; mặt đá Silica-free; bồn rửa & phụ kiện Blum. | $22,000 | $34,000 |
+| **4** | **Nội thất Phòng Khách, Ăn & Sảnh** | Kệ chữ 'S' gỗ & đá; cửa lùa kính sọc; kệ TV treo tường siêu mỏng 300mm; ghế băng Banquette; rèm kịch trần. | $9,500 | $15,500 |
+| **5** | **Nâng cấp Workshop Đa năng** | Sơn Limewash tường gạch mộc; sàn Epoxy; bàn Studio phía trước + bàn nguội cơ khí & pegboard phía sau; đèn rây. | $6,500 | $11,000 |
+| **6** | **Cải tạo 2 Phòng Tắm, Laundry & WC** | Chống thấm AS 3740; gạch Porcelain kịch trần; thiết bị vệ sinh Caroma/ABI, vách kính không khung, vanity treo. | $28,000 | $42,000 |
+| **7** | **Sàn Hybrid, Sơn toàn nhà & Điện/Đèn** | Sàn Hybrid chống nước $\sim 95\text{m}^2$; sơn Dulux Wash&Wear; tủ âm tường 3 phòng ngủ; đèn LED Downlight 3000K. | $19,500 | $27,000 |
+| **8** | **Đồ rời Nội thất & Sân vườn** | Sofa văng 2.3m, bàn trà, bàn ăn Oval + ghế, ghế bar đảo bếp, giường nệm, bàn ghế tiệc ngoài trời Alfresco. | $12,000 | $22,000 |
+| **9** | **Dự phòng phí (Contingency 10%)** | Dự phòng phát sinh kỹ thuật điện/nước trong thi công. | $13,200 | $20,400 |
+| | **TỔNG CỘNG DỰ TOÁN (AUD)** | **Bao gồm Nhân công + Vật tư + Thuế GST (10%)** | **$145,200 AUD** | **$224,400 AUD** |
+
+---
+
+## PHẦN 6: CHỈ ĐẠO KỸ THUẬT RENDER HÌNH ẢNH 3D CHUẨN XÁC 100%
+
+### Nguyên tắc Ràng buộc Hình học:
+1. **Khóa cứng bề ngang phòng khách:** Trong mô hình 3D, khoảng cách giữa tường Đông (treo TV) và tường Tây (kê Sofa) cố định đúng **3600mm (3.6m)**. Bắt buộc dùng tiêu cự **24mm – 28mm** đặt tại cửa sổ tường Nam nhìn về phía Bắc.
+2. **Bảo toàn 100% tường Workshop:** Giữ nguyên 4 bức tường gạch bao quanh kích thước **3000mm x 6300mm**, cửa sổ trước và cửa đi sau.
+3. **Mái ngói chữ L và Carport:** Thể hiện đúng mái ngói đỏ đất nung dạng chữ L nối liền hệ mái Carport đôi ($5.9\text{m} \times 6.1\text{m}$) trên hệ cột gạch bên phải lô đất.
