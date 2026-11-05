@@ -16,7 +16,8 @@
       --accent-light: #faedcd;
       --pink-accent: #e5989b;
       --pink-light: #ffb4a2;
-      --green-accent: #6b9080;
+      --cyan-accent: #58a6ff;
+      --cyan-light: #79c0ff;
       --text: #f0f6fc;
       --text-muted: #8b949e;
       --gold: #e5b869;
@@ -69,6 +70,11 @@
       border-color: var(--pink-accent);
       color: var(--pink-light);
     }
+    .hero-badge.badge-cad {
+      background: rgba(88, 166, 255, 0.2);
+      border-color: var(--cyan-accent);
+      color: var(--cyan-light);
+    }
     .hero h1 {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2.2rem, 5vw, 3.6rem);
@@ -80,13 +86,13 @@
     .hero p {
       font-size: 1.15rem;
       color: var(--accent-light);
-      max-width: 800px;
+      max-width: 820px;
       margin-bottom: 24px;
     }
     .hero-stats {
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+      gap: 24px;
       margin-top: 10px;
     }
     .stat-item {
@@ -94,12 +100,12 @@
       flex-direction: column;
     }
     .stat-val {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
       font-weight: 700;
       color: #fff;
     }
     .stat-lbl {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -182,10 +188,10 @@
       background: transparent;
       border: 1px solid var(--card-border);
       color: var(--text-muted);
-      padding: 10px 20px;
+      padding: 10px 18px;
       border-radius: 8px;
       font-family: inherit;
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       font-weight: 600;
       cursor: pointer;
       transition: all 0.2s ease;
@@ -199,6 +205,11 @@
       background: var(--accent);
       color: #111;
       border-color: var(--accent);
+    }
+    .tab-btn.cad-btn.active {
+      background: var(--cyan-accent);
+      color: #0d1117;
+      border-color: var(--cyan-accent);
     }
 
     /* Section Header */
@@ -305,6 +316,10 @@
       background: rgba(229,152,155,0.15);
       color: var(--pink-light);
     }
+    .tag.cyan {
+      background: rgba(88,166,255,0.15);
+      color: var(--cyan-light);
+    }
 
     /* Before / After Comparison */
     .ba-section {
@@ -365,6 +380,57 @@
     }
     .matrix-table td { color: #c9d1d9; }
     .matrix-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+    /* Cadastral & Blueprint 3-box Grid */
+    .cad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    .cad-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .cad-card-header {
+      padding: 14px 20px;
+      background: rgba(255,255,255,0.03);
+      border-bottom: 1px solid var(--card-border);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cad-card-img {
+      height: 340px;
+      overflow: hidden;
+      background: #05070a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .cad-card-img img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+    .cad-card:hover .cad-card-img img {
+      transform: scale(1.03);
+    }
+    .cad-card-body {
+      padding: 18px 20px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
 
     /* Floorplan & Specs */
     .plan-box {
@@ -434,27 +500,32 @@
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-badge-wrap">
+      <div class="hero-badge badge-cad">🗺️ Căn cứ Map.pdf & Trắc địa 418 m²</div>
       <div class="hero-badge">✦ Option 1: Luxury Resort ($105k-$148k)</div>
-      <div class="hero-badge badge-opt2">🌸 Option 2: Floral Cottage & Budget ($32k-$48k)</div>
+      <div class="hero-badge badge-opt2">🌸 Option 2: Floral Cottage ($32k-$48k)</div>
     </div>
     <h1>50A Bungaree Road, Wilson WA 6107</h1>
-    <p>Bản thiết kế cải tạo toàn diện Sân vườn ngoài trời, Mặt tiền kiến trúc & Nội thất cho gia đình với 2 phương án ngân sách linh hoạt.</p>
+    <p>Hồ sơ thiết kế cải tạo kiến trúc & sân vườn chuẩn xác 100% theo bản đồ địa chính Landgate DIA 91274, ảnh vệ tinh và bản vẽ kích thước chi tiết từng phòng.</p>
     <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-val">418 m²</span>
+        <span class="stat-lbl">Diện tích đất (Map.pdf)</span>
+      </div>
       <div class="stat-item">
         <span class="stat-val">155.0 m²</span>
         <span class="stat-lbl">Tổng diện tích xây dựng</span>
       </div>
       <div class="stat-item">
-        <span class="stat-val">3 Beds + Studio</span>
-        <span class="stat-lbl">Công năng phòng</span>
+        <span class="stat-val">16.20 m</span>
+        <span class="stat-lbl">Mặt tiền Bungaree Rd</span>
       </div>
       <div class="stat-item">
-        <span class="stat-val">2 Baths / 2 Cars</span>
-        <span class="stat-lbl">Vệ sinh & Gara Carport</span>
+        <span class="stat-val">28.55 m</span>
+        <span class="stat-lbl">Chiều sâu cạnh phải</span>
       </div>
       <div class="stat-item">
         <span class="stat-val">Perth, WA</span>
-        <span class="stat-lbl">Vị trí địa lý</span>
+        <span class="stat-lbl">City of Canning</span>
       </div>
     </div>
   </header>
@@ -467,10 +538,10 @@
       <div class="opt-box active-opt1" id="banner-opt1" onclick="selectOptionTab('opt1')">
         <div>
           <div class="opt-title">
-            <span>🌟 Phương Án 1: Luxury Resort & Japandi</span>
+            <span>🌟 Phương Án 1: Luxury Modern Resort</span>
             <span class="opt-price price-1">$105k - $148k AUD</span>
           </div>
-          <p class="opt-summary">Cải tạo lột xác toàn diện cao cấp: Trát trắng đá vôi mặt ngoài, mái lật pergola xoay, sàn decking composite, bếp đảo Calacatta waterfall, biến xưởng thành Creative Studio.</p>
+          <p class="opt-summary">Nâng cấp biệt thự nghỉ dưỡng bám sát 100% hiện trạng: Trát phẳng tường trắng vôi nhẹ, Carport ốp gỗ đèn âm downlight, sân sau Alfresco quầy BBQ bê tông mài và pergola lam xoay vừa vặn 4m x 6m.</p>
         </div>
       </div>
 
@@ -480,39 +551,103 @@
             <span>🌸 Phương Án 2: Sân Vườn Hoa & Tiết Kiệm</span>
             <span class="opt-price price-2">$32k - $48k AUD (Tiết kiệm ~65%)</span>
           </div>
-          <p class="opt-summary">Giữ nguyên 100% khung nhà & tường gạch mộc cổ điển, sân trước & sau ngập tràn sắc hoa rực rỡ (Lavender, hồng, cúc), cải tạo phòng tắm thông minh và sơn mới nội thất.</p>
+          <p class="opt-summary">Giữ nguyên 100% khung nhà & tường gạch mộc cổ điển, sân trước & sau ngập tràn sắc hoa rực rỡ (Lavender, hồng, kangaroo paw), cải tạo phòng tắm thông minh và sơn mới nội thất.</p>
         </div>
       </div>
     </div>
 
     <!-- Navigation Tabs -->
     <div class="tab-bar">
-      <button class="tab-btn active" id="btn-tab-opt1" onclick="selectOptionTab('opt1')">🌟 Phương Án 1: Luxury Resort (7 Renders)</button>
-      <button class="tab-btn" id="btn-tab-opt2" onclick="selectOptionTab('opt2')">🌸 Phương Án 2: Vườn Hoa & Tiết Kiệm (4 Renders)</button>
+      <button class="tab-btn active" id="btn-tab-opt1" onclick="selectOptionTab('opt1')">🌟 Phương Án 1: Luxury Resort (Chuẩn Hiện Trạng)</button>
+      <button class="tab-btn" id="btn-tab-opt2" onclick="selectOptionTab('opt2')">🌸 Phương Án 2: Vườn Hoa & Tiết Kiệm (Giữ Gạch Mộc)</button>
+      <button class="tab-btn cad-btn" id="btn-tab-cad" onclick="selectOptionTab('cadastral')">🗺️ Rà Soát Trắc Địa & Bản Đồ (Map.pdf & Satellite)</button>
       <button class="tab-btn" id="btn-tab-comp" onclick="selectOptionTab('comparison')">🔄 So Sánh Trực Diện Hai Phương Án</button>
       <button class="tab-btn" id="btn-tab-plan" onclick="selectOptionTab('floorplan')">📐 Mặt Bằng & Bảng Dự Toán</button>
     </div>
 
+    <!-- SECTION: CADASTRAL & STRUCTURAL REALITY CHECK -->
+    <section id="section-cadastral" style="display: none;">
+      <h2 class="section-title">Rà Soát Trắc Địa & Cấu Trúc Thực Tế (Map.pdf & Vệ Tinh)</h2>
+      <p class="section-subtitle">Đối chiếu 3 nguồn tư liệu gốc: Trích lục địa chính Landgate DIA 91274, Ảnh chụp vệ tinh từ trên cao, và Bản vẽ mặt bằng từng phòng.</p>
+
+      <div class="cad-grid">
+        <!-- Cadastral Card -->
+        <div class="cad-card">
+          <div class="cad-card-header">📄 1. Trích lục địa chính (Map.pdf - DIA 91274)</div>
+          <div class="cad-card-img" onclick="openModal('cadastral_map.jpg')">
+            <img src="cadastral_map.jpg" alt="Landgate Cadastral Map">
+          </div>
+          <div class="cad-card-body">
+            <strong>Thông số pháp lý:</strong> Part Lot 5 (Lot 1), Tổng diện tích <strong>418 m²</strong>.<br>
+            • Mặt tiền Bungaree Rd: <strong>16.20 mét</strong>.<br>
+            • Cạnh phải tiếp giáp Lot 296: <strong>28.55 mét</strong> thẳng tắp.<br>
+            • Cạnh sau: <strong>12.21 mét</strong>.<br>
+            • Cạnh trái bậc thang: <strong>15.45m + 6.03m + 8.39m</strong>.
+          </div>
+        </div>
+
+        <!-- Satellite Card -->
+        <div class="cad-card">
+          <div class="cad-card-header">🛰️ 2. Ảnh vệ tinh thực tế (Screenshot)</div>
+          <div class="cad-card-img" onclick="openModal('satellite_view.png')">
+            <img src="satellite_view.png" alt="Satellite Aerial View">
+          </div>
+          <div class="cad-card-body">
+            <strong>Định vị hướng nhà & mái ngói đỏ L-shape:</strong><br>
+            • Mái ngói đỏ đất nung nguyên bản chạy dọc cạnh 28.55m.<br>
+            • Nhà xe Carport nằm ở góc trước-trái của sân đậu xe.<br>
+            • Sân sau nằm kẹp giữa đuôi nhà và ranh giới sau 12.21m.<br>
+            • Không gian khép kín bao bọc bởi các nhà liền kề Wilson.
+          </div>
+        </div>
+
+        <!-- Floorplan Card -->
+        <div class="cad-card">
+          <div class="cad-card-header">📐 3. Mặt bằng kiến trúc (image 23.jpg)</div>
+          <div class="cad-card-img" onclick="openModal('floorplan.jpg')">
+            <img src="floorplan.jpg" alt="Floorplan Dimensions">
+          </div>
+          <div class="cad-card-body">
+            <strong>Diện tích xây dựng 155.0 m² (Inside 119m² + Carport 36m²):</strong><br>
+            • Living/Dining: <strong>6.9m x 3.6m</strong> (rộng đúng 3.6m).<br>
+            • Kitchen: <strong>4.2m x 3.1m</strong> (bồn rửa nhìn ra lối hông).<br>
+            • Workshop: <strong>3.0m x 6.3m</strong> (gian hồi phụ mở ra sân sau).<br>
+            • Bathroom: <strong>3.2m x 1.8m</strong> (rộng hẹp 1.8m).
+          </div>
+        </div>
+      </div>
+
+      <div style="background: rgba(88, 166, 255, 0.08); border-left: 3px solid var(--cyan-accent); border-radius: 8px; padding: 20px; margin-top: 20px;">
+        <h4 style="color: var(--cyan-light); margin-bottom: 8px; font-size: 1.05rem;">📌 Cam kết hiệu chỉnh chuẩn hóa cấu trúc 100%:</h4>
+        <ul style="padding-left: 20px; color: #c9d1d9; font-size: 0.92rem; line-height: 1.7;">
+          <li><strong>Không tạo cảnh quan giả (No Fake Views):</strong> Đã loại bỏ hoàn toàn các lỗi render trước đây (view biển, view rừng, hồ bơi lớn phi thực tế). Toàn bộ góc nhìn được hiệu chỉnh chuẩn suburban Perth: cửa sổ bếp nhìn ra hành lang hông nhà, cửa sổ phòng khách nhìn ra sân trước, sân sau là khuôn viên riêng tư khép kín.</li>
+          <li><strong>Đúng tỉ lệ phòng 3.6m:</strong> Phòng khách được bài trí sofa và bàn ăn oval gọn gàng theo chiều rộng thực tế 3.6m, giữ nguyên vị trí cửa lùa sang sảnh Entry.</li>
+          <li><strong>Sân sau Alfresco thực tế:</strong> Diện tích sân sau được thiết kế đúng kích thước chữ nhật ~4m x 6m kẹp giữa tường nhà bên trái (có hộp lam gỗ che máy lạnh) và tường ranh giới bên phải (bếp BBQ âm), cuối sân là hàng rào Colorbond.</li>
+          <li><strong>Carport đôi 5.9m x 6.1m:</strong> Giữ nguyên vị trí hệ cột và mái ngói, nâng cấp trần ốp lam gỗ tự nhiên âm đèn downlight sang trọng.</li>
+        </ul>
+      </div>
+    </section>
+
     <!-- SECTION: PHƯƠNG ÁN 1 -->
     <section id="section-opt1">
-      <h2 class="section-title">Phương Án 1: Resort Nghỉ Dưỡng Sang Trọng (Luxury Modern)</h2>
-      <p class="section-subtitle">Phương án cải tạo cao cấp toàn diện phong cách Australian Coastal kết hợp Japandi. Ngân sách ước tính: $105,000 - $148,000 AUD.</p>
+      <h2 class="section-title">Phương Án 1: Resort Cao Cấp (Chuẩn Hiện Trạng 100%)</h2>
+      <p class="section-subtitle">Phương án cải tạo cao cấp toàn diện phong cách Australian Coastal kết hợp Japandi bám sát tuyệt đối kích thước thực tế. Ngân sách ước tính: $105,000 - $148,000 AUD.</p>
 
       <div class="design-grid">
         <!-- Card 1 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('PA1_01_San_Sau_Alfresco_Chuan.jpg')">
-            <span class="media-badge">SÂN SAU RESORT (CHUẨN HIỆN TRẠNG)</span>
+            <span class="media-badge">SÂN SAU RESORT (CHUẨN 100%)</span>
             <img src="PA1_01_San_Sau_Alfresco_Chuan.jpg" alt="Sân vườn sau Alfresco chuẩn hiện trạng">
           </div>
           <div class="card-content">
             <h3 class="card-title">01. Sân Sau Alfresco Chuẩn Kích Thước Thực Tế</h3>
-            <p class="card-desc">Khớp 100% hiện trạng ảnh image (1).jpg: Tường gạch nhà bên trái với hộp lam gỗ che cục nóng điều hòa; tường ranh giới bên phải tích hợp quầy BBQ bê tông mài và tủ lạnh mini; giàn pergola lam xoay và sàn composite vừa vặn khuôn viên sân 4m x 6m.</p>
+            <p class="card-desc">Khớp 100% hiện trạng ảnh image (1).jpg & image (22).jpg: Tường gạch nhà bên trái với hộp lam gỗ che giấu cục nóng điều hòa tinh tế; tường ranh giới bên phải tích hợp quầy BBQ bê tông mài và tủ lạnh mini; giàn pergola lam xoay và sàn composite vừa vặn khuôn viên sân 4m x 6m.</p>
             <div class="feature-tags">
               <span class="tag">Decking Composite</span>
               <span class="tag">Outdoor BBQ Kitchen</span>
               <span class="tag">Pergola Louvre Roof</span>
-              <span class="tag">Khớp 100% Cấu Trúc</span>
+              <span class="tag cyan">Khớp 100% Cấu Trúc</span>
             </div>
           </div>
         </div>
@@ -520,17 +655,17 @@
         <!-- Card 2 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('PA1_02_San_Truoc_Carport_Chuan.jpg')">
-            <span class="media-badge">MẶT TIỀN & CARPORT (CHUẨN HIỆN TRẠNG)</span>
+            <span class="media-badge">MẶT TIỀN & CARPORT (CHUẨN 100%)</span>
             <img src="PA1_02_San_Truoc_Carport_Chuan.jpg" alt="Mặt tiền sân trước Carport chuẩn hiện trạng">
           </div>
           <div class="card-content">
             <h3 class="card-title">02. Mặt Tiền & Carport Chuẩn Khung Nhà Hiện Hữu</h3>
-            <p class="card-desc">Khớp 100% góc nhìn thực tế image (14).jpg: Carport đôi 5.9m x 6.1m bên trái trần ốp lam gỗ đèn âm; tường nhà trát trắng đá vôi nhẹ quanh 2 ô cửa sổ hiện trạng (Bed 3 & Living); nền lát đá Travertine và lối đi bên phải ra cổng sau.</p>
+            <p class="card-desc">Khớp 100% góc nhìn thực tế image (14).jpg & image (19).jpg: Carport đôi 5.9m x 6.1m bên trái trần ốp lam gỗ đèn âm; tường nhà trát trắng đá vôi nhẹ quanh 2 ô cửa sổ hiện trạng (Bed 3 & Living); nền lát đá Travertine và lối đi bên phải ra cổng sau.</p>
             <div class="feature-tags">
               <span class="tag">Limestone Render</span>
               <span class="tag">Carport 5.9x6.1m Giữ Nguyên</span>
               <span class="tag">Travertine Pavers</span>
-              <span class="tag">Khớp 100% Cấu Trúc</span>
+              <span class="tag cyan">Khớp 100% Cấu Trúc</span>
             </div>
           </div>
         </div>
@@ -538,17 +673,17 @@
         <!-- Card 3 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('03_Phong_Khach_Phong_An.jpg')">
-            <span class="media-badge">PHÒNG KHÁCH & ĂN</span>
+            <span class="media-badge">PHÒNG KHÁCH & ĂN (6.9x3.6M)</span>
             <img src="03_Phong_Khach_Phong_An.jpg" alt="Phòng khách và phòng ăn">
           </div>
           <div class="card-content">
             <h3 class="card-title">03. Không Gian Mở Living & Dining Japandi</h3>
-            <p class="card-desc">Sàn gỗ sồi châu Âu tự nhiên, vách kính lùa kịch trần mở tầm nhìn sân vườn, sofa bouclé kem mềm mại, vách tivi ốp nan gỗ sồi dọc hắt sáng LED, bàn ăn oval gỗ sồi 6 ghế tựa uốn cong tinh tế.</p>
+            <p class="card-desc">Sàn gỗ sồi châu Âu tự nhiên, sofa bouclé kem mềm mại kê sát tường tối ưu bề ngang 3.6m, vách tivi ốp nan gỗ sồi dọc hắt sáng LED, bàn ăn oval gỗ sồi 6 ghế tựa uốn cong tinh tế gần cửa sổ đón sáng, giữ cửa lùa vào sảnh Entry.</p>
             <div class="feature-tags">
-              <span class="tag">European Oak Floor</span>
+              <span class="tag">Bề ngang 3.6m Chuẩn</span>
               <span class="tag">Fluted Timber Wall</span>
               <span class="tag">Bouclé Sofa & Dining</span>
-              <span class="tag">Floor-to-Ceiling Glass</span>
+              <span class="tag">European Oak Floor</span>
             </div>
           </div>
         </div>
@@ -556,16 +691,16 @@
         <!-- Card 4 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('04_Nha_Bep_Dao_Bep.jpg')">
-            <span class="media-badge">NHÀ BẾP HIỆN ĐẠI</span>
+            <span class="media-badge">BẾP NẤU (4.2x3.1M)</span>
             <img src="04_Nha_Bep_Dao_Bep.jpg" alt="Nhà bếp và đảo bếp">
           </div>
           <div class="card-content">
-            <h3 class="card-title">04. Bếp Sang Trọng Với Đảo Đá Thác Nước</h3>
-            <p class="card-desc">Đảo bếp đá thạch anh Calacatta vân mây ốp thác nước đôi bên, chậu rửa âm đôi vòi cổ ngỗng màu vàng đồng chải, tủ bếp phẳng không tay nắm màu trắng ngà kết hợp gỗ sồi, bộ 3 đèn thả thủy tinh sọc nghệ thuật.</p>
+            <h3 class="card-title">04. Bếp Sang Trọng Với Đảo Đá Calacatta</h3>
+            <p class="card-desc">Đảo bếp đá thạch anh Calacatta vân mây ốp thác nước đôi bên, chậu rửa đôi đặt đúng vị trí dưới cửa sổ hông nhà, tủ bếp phẳng không tay nắm màu trắng ngà kết hợp gỗ sồi, tháp lò nướng và tủ lạnh âm tường ở vách sau.</p>
             <div class="feature-tags">
               <span class="tag">Calacatta Waterfall Island</span>
               <span class="tag">Brushed Gold Tapware</span>
-              <span class="tag">Induction Cooktop</span>
+              <span class="tag">Bồn rửa dưới cửa sổ hông</span>
               <span class="tag">Leather Barstools</span>
             </div>
           </div>
@@ -574,17 +709,17 @@
         <!-- Card 5 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('05_Studio_Lam_Viec_Giai_Tri.jpg')">
-            <span class="media-badge">CẢI TẠO STUDIO WORKSHOP</span>
+            <span class="media-badge">XƯỞNG CẢI TẠO (3.0x6.3M)</span>
             <img src="05_Studio_Lam_Viec_Giai_Tri.jpg" alt="Studio làm việc giải trí">
           </div>
           <div class="card-content">
             <h3 class="card-title">05. Cải Tạo Xưởng Thành Creative Studio & Lounge</h3>
-            <p class="card-desc">Chuyển đổi phòng xưởng cũ (3.0x6.3m) thành studio làm việc chuyên nghiệp: tường gạch thô sơn trắng phong cách Loft, trần ốp lam gỗ tiêu âm chống vang, bàn làm việc đôi treo lơ lửng, ghế da đọc sách và cửa kính thông vườn.</p>
+            <p class="card-desc">Chuyển đổi phòng xưởng cũ (3.0x6.3m) thành studio làm việc chuyên nghiệp: tường gạch thô sơn trắng phong cách Loft, trần ốp lam gỗ tiêu âm chống vang, bàn làm việc đôi treo lơ lửng, ghế da đọc sách và cửa thông ra sân sau.</p>
             <div class="feature-tags">
-              <span class="tag">Exposed Painted Brick</span>
-              <span class="tag">Acoustic Timber Slat Ceiling</span>
+              <span class="tag">Tỷ lệ 3.0m x 6.3m</span>
+              <span class="tag">Acoustic Timber Ceiling</span>
               <span class="tag">Dual Workstation</span>
-              <span class="tag">Garden Access Slider</span>
+              <span class="tag">Cửa mở ra sân sau</span>
             </div>
           </div>
         </div>
@@ -592,14 +727,14 @@
         <!-- Card 6 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('06_Phong_Ngu_Master.jpg')">
-            <span class="media-badge">PHÒNG NGỦ MASTER</span>
+            <span class="media-badge">PHÒNG NGỦ MASTER (3.2x4.1M)</span>
             <img src="06_Phong_Ngu_Master.jpg" alt="Phòng ngủ Master">
           </div>
           <div class="card-content">
             <h3 class="card-title">06. Phòng Ngủ Master Phong Cách Khách Sạn</h3>
-            <p class="card-desc">Giường King bọc nỉ màu be cát, vách đầu giường ốp lam gỗ sồi và vữa hiệu ứng Venetian Plaster, tủ áo cánh kính sọc mờ viền nhôm đèn LED tự động, cửa sổ lớn rèm voan 2 lớp lấy sáng êm dịu, thông sang phòng tắm riêng Ensuite.</p>
+            <p class="card-desc">Giường King bọc nỉ màu be cát, vách đầu giường ốp lam gỗ sồi và vữa hiệu ứng Venetian Plaster, tủ áo cánh kính sọc mờ viền nhôm đèn LED tự động, cửa sổ đón sáng êm dịu, thông sang phòng tắm riêng Ensuite khép kín.</p>
             <div class="feature-tags">
-              <span class="tag">Venetian Plaster & Battens</span>
+              <span class="tag">Diện tích 13.1m²</span>
               <span class="tag">Fluted Glass Wardrobe</span>
               <span class="tag">Sheer Linen Curtains</span>
               <span class="tag">Ensuite Connection</span>
@@ -610,14 +745,14 @@
         <!-- Card 7 -->
         <div class="design-card card-opt1">
           <div class="card-media" onclick="openModal('07_Phong_Tam_Modern_Spa.jpg')">
-            <span class="media-badge">PHÒNG TẮM SPA</span>
+            <span class="media-badge">PHÒNG TẮM CHÍNH (3.2x1.8M)</span>
             <img src="07_Phong_Tam_Modern_Spa.jpg" alt="Phòng tắm hiện đại">
           </div>
           <div class="card-content">
             <h3 class="card-title">07. Phòng Tắm Sang Trọng Tiêu Chuẩn Spa</h3>
-            <p class="card-desc">Gạch vân đá travertine khổ lớn 600x1200mm, buồng tắm kính đứng không khung, sen cây âm tường màu vàng đồng chải, tủ lavabo gỗ sồi lam sóng, gương vòm cảm ứng đèn LED hắt và bồn cầu âm tường cao cấp.</p>
+            <p class="card-desc">Tối ưu bề ngang 1.8m: Gạch vân đá travertine 600x1200mm, buồng tắm kính đứng không khung ở góc trong, sen cây âm tường màu vàng đồng chải, tủ lavabo gỗ sồi lam sóng bên trái, gương vòm cảm ứng đèn LED và bồn cầu âm tường.</p>
             <div class="feature-tags">
-              <span class="tag">Travertine Porcelain 600x1200</span>
+              <span class="tag">Bề ngang 1.8m chuẩn</span>
               <span class="tag">Frameless Glass Shower</span>
               <span class="tag">Brushed Brass Fixtures</span>
               <span class="tag">Arched Backlit Mirror</span>
@@ -677,7 +812,7 @@
           </div>
           <div class="card-content">
             <h3 class="card-title">03. Phòng Tắm Tinh Tế & Tối Ưu Chi Phí</h3>
-            <p class="card-desc">Giữ nguyên vị trí đường cấp thoát nước (tiết kiệm 70% chi phí thợ ống nước). Tường ốp gạch thẻ subway trắng bóng tinh khôi, sàn gạch xám chống trơn, tủ lavabo gỗ sồi mặt chậu sứ liền khối, vòi và sen tắm đen mờ thời thượng, vách kính trượt và gương tròn viền LED halo.</p>
+            <p class="card-desc">Giữ nguyên vị trí đường cấp thoát nước phòng tắm 3.2m x 1.8m (tiết kiệm 70% chi phí thợ ống nước). Tường ốp gạch thẻ subway trắng bóng tinh khôi, sàn gạch xám chống trơn, tủ lavabo gỗ sồi mặt chậu sứ liền khối, vòi và sen tắm đen mờ thời thượng, vách kính trượt và gương tròn viền LED halo.</p>
             <div class="feature-tags">
               <span class="tag pink">Retained Plumbing Points</span>
               <span class="tag pink">Glossy Subway Wall Tiles</span>
@@ -695,7 +830,7 @@
           </div>
           <div class="card-content">
             <h3 class="card-title">04. Làm Mới Nội Thất Bếp & Living Bằng Sơn Chuyên Dụng</h3>
-            <p class="card-desc">Giữ nguyên thùng tủ bếp cũ, sơn phủ cánh tủ bằng sơn chuyên dụng Dulux Renovation màu trắng ấm và xanh xám Sage Green, thay tay nắm kim loại đen thanh mảnh, thay mặt đá thạch anh tầm trung; sơn trắng sáng toàn bộ tường nhà và trang trí bình hoa rực rỡ.</p>
+            <p class="card-desc">Giữ nguyên thùng tủ bếp cũ 4.2x3.1m, sơn phủ cánh tủ bằng sơn chuyên dụng Dulux Renovation màu trắng ấm và xanh xám Sage Green, thay tay nắm kim loại đen thanh mảnh, thay mặt đá thạch anh tầm trung; sơn trắng sáng toàn bộ tường nhà và trang trí bình hoa rực rỡ.</p>
             <div class="feature-tags">
               <span class="tag pink">Cabinetry Repaint (Sage Green)</span>
               <span class="tag pink">New Quartz Countertop</span>
@@ -756,8 +891,8 @@
           <tr>
             <td><strong>Nhà bếp</strong></td>
             <td>Tủ melamine vàng cũ, mặt laminate</td>
-            <td>Thay mới toàn bộ, đảo Calacatta thác nước</td>
-            <td><strong>Giữ khung tủ, sơn màu Sage Green & trắng, thay đá mới</strong></td>
+            <td>Thay mới toàn bộ, đảo Calacatta waterfall</td>
+            <td><strong>Giữ khung tủ, sơn màu Sage Green & trắng, thay mặt đá mới</strong></td>
           </tr>
           <tr>
             <td><strong>Thời gian thi công</strong></td>
@@ -841,7 +976,7 @@
           <div style="margin-top: 24px; padding: 16px; background: rgba(212, 163, 115, 0.1); border-left: 3px solid var(--accent); border-radius: 4px;">
             <p style="font-size: 0.9rem; color: var(--accent-light);">
               <strong>Cam kết chuẩn hóa cấu trúc:</strong><br>
-              Các phương án thiết kế đã được hiệu chỉnh bám sát 100% hình thế thực tế của thửa đất: không tạo view biển/hồ bơi phi thực tế, giữ nguyên tường chịu lực, giữ kích thước phòng khách 3.6m và đúng tỷ lệ sân sau 4m x 6m.
+              Các phương án thiết kế đã được hiệu chỉnh bám sát 100% hình thế thực tế của thửa đất 418 m²: không tạo view biển/hồ bơi phi thực tế, giữ nguyên tường chịu lực, giữ kích thước phòng khách 3.6m và đúng tỷ lệ sân sau 4m x 6m.
             </p>
           </div>
         </div>
@@ -869,6 +1004,7 @@
       // Buttons
       document.getElementById('btn-tab-opt1').classList.remove('active');
       document.getElementById('btn-tab-opt2').classList.remove('active');
+      document.getElementById('btn-tab-cad').classList.remove('active');
       document.getElementById('btn-tab-comp').classList.remove('active');
       document.getElementById('btn-tab-plan').classList.remove('active');
 
@@ -881,11 +1017,13 @@
       // Sections
       const sOpt1 = document.getElementById('section-opt1');
       const sOpt2 = document.getElementById('section-opt2');
+      const sCad = document.getElementById('section-cadastral');
       const sComp = document.getElementById('section-comparison');
       const sPlan = document.getElementById('section-floorplan');
 
       sOpt1.style.display = 'none';
       sOpt2.style.display = 'none';
+      sCad.style.display = 'none';
       sComp.style.display = 'none';
       sPlan.style.display = 'none';
 
@@ -897,6 +1035,9 @@
         document.getElementById('btn-tab-opt2').classList.add('active');
         b2.classList.add('active-opt2');
         sOpt2.style.display = 'block';
+      } else if (tabName === 'cadastral') {
+        document.getElementById('btn-tab-cad').classList.add('active');
+        sCad.style.display = 'block';
       } else if (tabName === 'comparison') {
         document.getElementById('btn-tab-comp').classList.add('active');
         sComp.style.display = 'block';
